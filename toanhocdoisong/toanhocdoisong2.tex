@@ -1,319 +1,335 @@
 \thispagestyle{toanhocvadoisongnone}
 \pagestyle{toanhocvadoisong}
 \everymath{\color{toanhocdoisong}}
-\graphicspath{{../toanhocdoisong/ori/}}
+\graphicspath{{../toanhocdoisong/pic2/}}
 \begingroup
-\blfootnote{$^1$\color{toanhocdoisong}Viện Sinh học và Môi trường Đông Dương.}
+\blfootnote{$^1$\color{toanhocdoisong}Viện Sinh thái và Môi trường Đông Dương.}
 \AddToShipoutPicture*{\put(0,616){\includegraphics[width=19.3cm]{../bannertoanhocdoisong}}}
-\AddToShipoutPicture*{\put(88,520){\includegraphics[scale=1]{../tieude.pdf}}}
+\AddToShipoutPicture*{\put(100,550){\includegraphics[scale=1]{../tieude3.pdf}}}
 \centering
 \endgroup
 
-\vspace*{190pt}
+\vspace*{160pt}
 
 \begin{multicols}{2}
-	\setlength{\abovedisplayskip}{4pt}
-	\setlength{\belowdisplayskip}{4pt}
-	$\pmb{1.}$ \textbf{\color{toanhocdoisong}Quan hệ giữa các góc của nếp gấp}
-	\vskip 0.1cm	
-	Với mỗi nếp gấp trong origami, ta xét đến hai mặt phẳng chứa các phần tờ giấy kề với nó. Hai mặt phẳng này sẽ nhận nếp gấp làm giao tuyến. Người ta quy ước góc ứng với mỗi nếp gấp là khoảng cách góc của hai mặt phẳng này so với trạng thái được trải phẳng. Tức là, góc này nhận giá trị $0^\circ$ khi hai mặt phẳng đồng phẳng, $180^\circ$ khi nếp gấp được gập lõm hoàn toàn và $-180^\circ$ khi nếp gấp được gập lồi hoàn toàn.
-		\begin{figure}[H]
-		\vspace*{-5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{1}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $1$. Quy ước về góc của nếp gấp trong origami hình học.}}
-		\vspace*{-10pt}
-	\end{figure}
-	Với mỗi một hình origami, ở trạng thái bất kỳ, ta luôn có thể cắt xung quanh một đỉnh bằng một hình cầu. Khi trải phần bị cắt ra ta sẽ luôn được một hình tròn với các nếp gấp lồi và lõm (Hình $1$).
-		\begin{figure}[H]
-		\vspace*{-5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{2}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $2$. Cắt một đỉnh trong origami ra và trải ra, ta được hình tròn với các nếp gấp như hình bên phải. Chú ý: nét liền là nếp gấp lồi, nét đứt là nếp gấp lõm.}}
-		\vspace*{-10pt}
-	\end{figure}
-		\begin{figure}[H]
-		\vspace*{-5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{3}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $3$. Các góc liên quan đến một đỉnh trong trường hợp đỉnh bậc $4$ (có $4$ nếp gấp kết nối với đỉnh). Như đã quy ước, đường nét liền (màu xanh) là nếp gấp lồi, nét đứt (màu đỏ) là nếp gấp lõm).}}
-		\vspace*{-10pt}
-	\end{figure}
-	Với mỗi một đỉnh được tạo như vậy, ta gọi các góc giữa các nếp gấp (lồi và lõm) kề nhau là $\alpha_1, \alpha_2,\ldots,\alpha_n$. Đồng thời, ta còn xét các góc liên quan đến các nếp gấp, ký hiệu là $\gamma_1, \gamma_2,\ldots,\gamma_n$. Có thể dễ dàng nhận thấy, dù cho hình origami ở bất kỳ trạng thái nào, kể cả các trạng thái trung gian thì các cung tròn của hình tròn ban đầu đều nằm trên một \linebreak hình cầu, các góc $\alpha$ không đổi nhưng các góc $\gamma$ sẽ thay đổi trong quá trình gấp.
-	\vskip 0.05cm
-	Nếu xoay hướng nhìn mặt cầu, thì hình ở bên phải của Hình $3$ sẽ có dạng như trong Hình $4$. Ta kẻ thêm một dây cung trên mặt cầu (trong mặt phẳng đi qua tâm hình cầu) để chia góc $\gamma_3$ ra thành $\phi$ và $\psi$.
-		\begin{figure}[H]
-		\vspace*{-5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{4}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $4$. Mặt cầu khi nhìn từ phía ngoài vào. Các góc $\alpha$ sẽ ứng với các dây cung trên mặt cầu còn các góc $\gamma$ ứng với các điểm đại diện cho nếp gấp trên mặt cầu.}}
-		\vspace*{-5pt}
-	\end{figure}
-	Sử dụng công thức định lý hàm số cosin cho tam giác cầu, ta có:
-	\begin{align*}
-		&\cos\zeta \\[-0.5ex]
-		= \,&\cos \alpha_1\cos\alpha_2 + \sin\alpha_1\sin\alpha_2\cos(\pi - \gamma_2)
-	\end{align*}
-	và
-	\begin{align*}
-		&\cos\zeta \\[-0.5ex]
-		= \,&\cos\alpha_3\cos\alpha_4 + \sin \alpha_3\sin\alpha_4 \cos(\pi - \gamma_4).
-	\end{align*}
-	Đồng thời, áp dụng điều kiện Kawasaki -- \linebreak Justin, ta có: $\alpha_3 = \pi - \alpha_1$ và $\alpha_4=\pi-\alpha_2$. Thay vào các công thức trên và trừ đi nhau ta được:
-	\begin{align*}
-		\sin\alpha_1\sin\alpha_2(\cos\gamma_2 - \cos\gamma_4) = 0.
-	\end{align*}
-	Do $\alpha_1$ và $\alpha_2$ đều khác $0$ nên ta có:
-	\begin{align*}
-		\cos \gamma_2 = \cos\gamma_4.
-	\end{align*}
-	Tương tự:
-	\vskip 0.05cm
-		\centerline{$\cos\gamma_1 = \cos\gamma_3$.}
-	\vskip 0.05cm
-		\textbf{\color{toanhocdoisong}Điều kiện Kawasaki--Justin:} Khi hình được trải phẳng được gấp lại hoàn toàn, nếu ta đi theo mép của đường tròn ban đầu, ta được một vòng kín, do đó, tổng của các góc mà ta đi theo một chiều (ngược hoặc xuôi kim đồng hồ) cũng bằng với tổng của các góc khi ta đi theo chiều ngược lại. Hiển nhiên $\theta_1 + \theta_2 + \ldots + \theta_n = 2\pi$ nên:
-		\begin{align*}
-			\sum\limits_{i \text{\,\,chẵn}} \theta_i  = \sum\limits_{i \text{\,\,lẻ}} \theta_i = \pi.
-		\end{align*}
-		\begin{figure}[H]
-	\vspace*{-5pt}
-	\centering
-	\captionsetup{labelformat= empty, justification=centering}
-	\includegraphics[width=0.9\linewidth]{5}
-	\vspace*{-10pt}
-\end{figure}
-	Sau đó, ta cần tiến hành xét dấu tùy theo trường hợp lồi lõm của các nếp gấp. Như với Hình $3$ và Hình $4$, ta sẽ có:
-	\begin{align*}
-		\gamma_2 = \gamma_4 = \gamma_+.
-	\end{align*}
-	và
-	\begin{align*}
-		\gamma_1 = -\gamma_3 = \gamma_-.
-	\end{align*}
-	Cách làm trên cho ta quan hệ giữa các góc $\gamma$ đối nhau. Ta hãy tiếp tục tìm quan hệ giữa các góc $\gamma$ kề nhau trong trường hợp đỉnh bậc $4$. Ta có:
-	\begin{align*}
-		\sin \gamma_3 &= \sin \left(\pi - (\phi + \psi)\right) \\[-0.5ex]
-		&= \sin\phi\cos\psi + \cos\phi \sin\psi.
-	\end{align*}
-	Theo định lý hàm số sin cho tam giác cầu:
-	\begin{align*}
-		\frac{\sin\phi}{\sin\alpha_1} = \frac{\sin\gamma_2}{\sin\zeta},\frac{\sin\psi}{\sin\alpha_4} = \frac{\sin \gamma_4}{\sin\zeta}.
-	\end{align*}
-	Theo định lý hàm số cosin cho tam giác cầu:
-	\begin{align*}
-		&\cos\alpha_1 = \cos\alpha_2\cos\zeta + \sin\alpha_2\sin\zeta\cos\phi,\\[-0.5ex] &\cos\alpha_4 = \cos\alpha_3\cos\zeta + \sin\alpha_3\sin\zeta\cos\psi.
-	\end{align*}
-	Dùng các định nghĩa $\gamma_+, \gamma_-$ như ở trên, ta có thể đơn giản hóa biểu thức của $\sin\gamma_3$ thành:
-	\begin{align*}
-		\sin\gamma_- = \frac{\cos\alpha_2 - \cos\alpha_1}{1 - \cos\zeta}\sin\gamma_+.
-	\end{align*}
-	Thay biểu thức: $\cos\zeta = \cos\alpha_1\cos\alpha_2 - \sin\alpha_1\sin\alpha_2\cos\gamma_+$,
-	ta được:
-	\begin{align*}
-		&\sin\gamma_- \\[-0.5ex]
-		= &\frac{\cos\alpha_2 \!-\! \cos\alpha_1}{1\!-\!\left(\!\cos\!\alpha_1\!\cos\!\alpha_2 \!-\! \sin\!\alpha_1\!\sin\!\alpha_2\!\cos\!\gamma_+\!\!\right)}\!\sin\gamma_+.
-	\end{align*}
-	Sử dụng phép thế Weierstrass (biểu diễn các giá trị lượng giác của $x$ theo $\tan\frac{x}{2}$), ta đặt:
-	\begin{align*}
-		t_+ = \tan\frac{\gamma_+}{2}, t_- = \frac{\gamma_-}{2}
-	\end{align*}
-	và rút gọn để được:
-	\begin{align*}
-		t_+ = t_- \frac{\sin\frac{1}{2}\left(\alpha_1 + \alpha_2\right)}{\sin\frac{1}{2}\left(\alpha_1 - \alpha_2\right)}
-	\end{align*}
-	hay:
-	\begin{align*}
-		\frac{\tan\frac{1}{2}\gamma_+}{\tan\frac{1}{2}\gamma_-} = \frac{\sin\frac{1}{2}\left(\alpha_1 + \alpha_2\right)}{\sin\frac{1}{2}\left(\alpha_1 - \alpha_2\right)} = \mu.
-	\end{align*}
-	Trong kết quả này, vế phải là một hằng số tại mỗi đỉnh trong quá trình gấp, gọi là bội số góc nếp gấp. Do đó, với lưới các đỉnh bậc $4$ như ta đang xét, ta chỉ cần một tham số duy nhất để biểu diễn trạng thái của toàn bộ cấu trúc. Thật vậy, nếu ta biết được một góc ứng với một nếp gấp bất kỳ, ta có thể tính được tất cả các góc của các nếp gấp cùng đỉnh cũng như tất cả các góc ứng với bất kỳ nếp gấp nào khác trong cấu trúc. Tuy nhiên, việc này lại yêu cầu cách gấp phải thỏa mãn một số điều kiện toán học nhất định.
-	\vskip 0.05cm
-	$\pmb{2.}$ \textbf{\color{toanhocdoisong}Khả năng gấp cứng}
-	\vskip 0.05cm
-	Như ta đã thấy với Miura--ori, khi ta kéo/đẩy cấu trúc ở hai góc thì các nếp gấp trong cấu trúc sẽ chuyển động theo tác động của ta đến bất kỳ trạng thái nào. Đây được gọi là khả năng gấp cứng (rigid foldability): cấu trúc có thể chuyển động liên tục giữa các trạng thái mà 
-	\vskip 0.05cm
-	-- vị trí các đỉnh so với tờ giấy không bị dịch chuyển; 
-	\vskip 0.05cm
-	-- các nếp gấp luôn là đường thẳng với độ dài không bị thay đổi;
-	\vskip 0.05cm
-	-- các mặt giấy (phần được xác định với biên là các nếp gấp) luôn phẳng, không bị uốn cong, không bị thay đổi về hình dạng và diện tích.
-	\vskip 0.05cm
-	Nói cách khác, việc chuyển trạng thái trong trường hợp này chỉ thay đổi các góc $\gamma$ trong cấu trúc.
-	\vskip 0.05cm
-	Vậy một cách gấp như thế nào sẽ có thể thỏa mãn những điều kiệu này?
-	\vskip 0.05cm
-	Ta hãy nhìn lại biểu thức của $\frac{\tan\frac{1}{2}\gamma_+}{\tan\frac{1}{2}\gamma_-}$. Với bất cứ thiết kế nào của đỉnh bậc $4$ mà $\gamma_2$ và $\gamma_4$ cùng dấu còn $\gamma_1$ và $\gamma_3$ ngược dấu, ta luôn có giá trị của biểu thức này $> 1$. Hàm số $\tan$ là hàm số đơn điệu cho nên với tất cả các trạng thái của nếp gấp:
-	\begin{align*}
-		&|\gamma_-| < |\gamma_+| \text{  với  } \gamma \in (0,\pi),\\
-		&|\gamma_-| = |\gamma_+| \text{ với } \gamma = 0,\pi.
-	\end{align*}
-	Dấu bằng chỉ xảy ra ở trạng thái các mặt giấy đồng phẳng hoặc đè hoàn toàn lên nhau. Do quan hệ trên mà các nếp gấp ứng với $\gamma_+$ được gọi là các nếp gấp chính còn các nếp gấp ứng với $\gamma_-$ được gọi là các nếp gấp phụ (độ lớn của góc tương ứng bé hơn).
-	\vskip 0.05cm
-	Với mỗi đỉnh, ta có thể biểu diễn mối quan hệ giữa các nếp gấp gắn với đỉnh đó bằng một đồ thị có hướng. Mỗi nếp gấp được coi là một đỉnh của đồ thị (chú ý: phân biệt với đỉnh của cấu trúc origami). Giữa hai nếp gấp kề nhau, ta tạo một cạnh của đồ thị, cạnh này có hướng từ nếp gấp chính đến nếp gấp phụ (Hình $5$).
-		\begin{figure}[H]
-		\vspace*{-5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=0.8\linewidth]{6}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $5$. Đồ thị có hướng của một đỉnh. Cạnh của đồ thị nối các nếp gấp kề nhau và đi từ một nếp gấp chính đến một nếp gấp phụ.}}
-		\vspace*{-10pt}
-	\end{figure}
-	Tất nhiên cấu trúc origami của ta không chỉ có một đỉnh. Các đỉnh được nối với nhau bằng các nếp gấp. Do đó, với mỗi nếp gấp \linebreak(đỉnh của đồ thị có hướng), ta vẽ được hai \linebreak cạnh đến hai nếp gấp khác. Đồ thị đã bao gồm tất cả các cạnh từ các nếp gấp được gọi là đồ thị góc nếp gấp của cấu trúc origami. Đồ thị này sẽ thay đổi với những cách gấp khác nhau. Hình $6$ biểu diễn các cách gấp khác nhau của $4$ đỉnh có bậc $4$ cùng đồ thị có hướng được dựng từ chúng. Ở đây, ta ký hiệu nếp gấp lồi là $M$, nếp gấp lõm là $V$ (theo tiếng Anh, $M$ -- mountain, $V$ -- valley). Các cách gấp từ trái sang sẽ được ký hiệu là $M^4$, $M^2 V^2$, và $(MV)^2$ theo dạng lồi lõm của các cạnh nối $4$ đỉnh đang xét.
-	\vskip 0.05cm
-	Đồ thị có hướng mà ta đã lập sẽ cho biết quan hệ về độ lớn giữa các góc của các nếp gấp trong cấu trúc origami. Với cách gấp $M^4$, từ đồ thị ta có:
-	\begin{align*}
-		\gamma_a > \gamma_b > \gamma_c > \gamma_d > \gamma_a
-	\end{align*}
-	Điều này là không thể vì góc ứng với nếp gấp $a$ không thể lớn hơn chính nó. Do đó nếp gấp này không thể có trạng thái trung gian giữa trạng thái phẳng và trạng thái gập dẹt. Nếu ta thử gấp, một số mặt giấy sẽ bị cong hoặc biến dạng.
+	Mã QR đã trở nên rất quen thuộc trong đời sống hàng ngày quanh ta, mang lại sự tiện lợi lớn cho các hoạt động giao dịch cũng như trao đổi thông tin. Trong bài này, chúng ta hãy cùng tìm hiểu về vai trò của toán học trong quá trình xây dựng loại mã này.
 	\begin{figure}[H]
 		\vspace*{-5pt}
 		\centering
 		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{7}
-		\includegraphics[width=1\linewidth]{8}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $6$. Trên: các cách gấp $M^4$, $M^2 V^2$, và $(MV)^2$ với $4$ đỉnh bậc $4$. Dưới: đồ thị có hướng của chúng. Các nếp gấp nối các đỉnh trong $4$ đỉnh được xét được ký hiệu là $\gamma_a, \gamma_b, \gamma_c$ và $\gamma_d$.}}
-		\vspace*{-5pt}
-	\end{figure}
-	Với cách gấp $(MV)^2$, ta cũng gặp trường hợp không khả thi như vậy:
-	\begin{align*}
-		\gamma_a<\gamma_b<\gamma_c<\gamma_d<\gamma_a.
-	\end{align*}
-	Trong khi đó, dạng $M^2 V^2$ (ở giữa) có quan hệ từ đồ thị luôn luôn được thỏa mãn:
-	\begin{align*}
-		\gamma_a,\gamma_c>\gamma_b,\gamma_d.
-	\end{align*} 
-	Các quan hệ từ đồ thị này giúp ta nhận diện những cách gấp không có khả năng gấp cứng. Tuy nhiên, nó không phải là điều kiện đủ. Ở phần trước, ta đã thiết lập được bội số $\mu$ biểu diễn quan hệ giữa các góc của các nếp gấp. Bội số này có thể được bổ sung làm trọng số cho các cạnh của đồ thị có hướng của ta sau khi bổ sung thêm dấu phụ thuộc vào dấu của các góc $\gamma$ (Hình $7$). Khi các hàm số tan ứng với hai góc $\frac{1}{2}\gamma$ trái dấu thì trọng số sẽ âm.
-	\vskip 0.05cm
-	Ví dụ cho trường hợp $M^4$, từ đồ thị ta có (chú ý chiều của cạnh đồ thị khi viết biểu thức):
-	\begin{align*}
-		&\mu_a = \frac{\tan\frac{1}{2}\gamma_a}{\tan\frac{1}{2}\gamma_d},\mu_b = \frac{\tan\frac{1}{2}\gamma_b}{\tan\frac{1}{2}\gamma_a},\\
-		& \mu_c= \frac{\tan\frac{1}{2}\gamma_c}{\tan\frac{1}{2}\gamma_b}, \mu_d = \frac{\tan\frac{1}{2}\gamma_d}{\tan\frac{1}{2}\gamma_a}.
-	\end{align*}
-	Do đó:
-	\begin{align*}
-		\mu_a\mu_b\mu_c\mu_d = 1.
-	\end{align*}
-	Do các giá trị $\mu$ luôn lớn hơn $1$, biểu thức này luôn không thỏa mãn.
-	\begin{figure}[H]
-		\vspace*{-5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{9}
-		\caption{\quad$M^4$				\hspace*{75pt}		$(MV)^2$}
-		\includegraphics[width=1\linewidth]{10}
-		\caption{$M^2 V^2$ \hspace*{65pt}					$M^3 V$}
-		\caption{\small\textit{\color{duongvaotoanhoc}	Hình $7$. Đồ thị có trọng số cho các cách gấp. (Các góc $\gamma$ không ghi ở đây nhưng giống với hình $6$).}}
+		\includegraphics[width= 1\linewidth]{1}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $1$. Mã QR của Tạp chí Pi.}}
 		\vspace*{-10pt}
 	\end{figure}
-	Nếu quy ước chiều dương là chiều ngược kim đồng hồ, ta có thể viết biểu thức cho các vòng khuyên trong đồ thị nhanh hơn thay vì liệt kê các quan hệ như trên. Với cạnh cùng chiều với chiều dương, ta giữ nguyên trọng số còn cạnh ngược chiều dương ta lấy nghịch đảo của trọng số. Với trường hợp $(MV)^2$, ta có:
-	\begin{align*}
-		\left(-\mu_a^{-1}\right)\left(-\mu_b^{-1}\right)\left(-\mu_c^{-1}\right)\left(-\mu_d^{-1}\right) = 1.
-	\end{align*}
-	Quan hệ này cũng không thể thỏa mãn do các giá trị $\mu$ luôn lớn hơn $1$.
+	$\pmb{1.}$ \textbf{\color{toanhocdoisong}Mã sửa lỗi và sự ra đời của mã Reed -- Solomon}
 	\vskip 0.05cm
-	Với trường hợp $M^2 V^2$ (Miura--ori là một dạng này), ta có:
-	\begin{align*}
-		\left(-\mu_a^{-1}\right)\mu_b\left(-\mu_c^{-1}\right)\mu_d = 1.
-	\end{align*}
-	Với cấu trúc mà các đỉnh được gấp với các góc ở đỉnh giống nhau, các giá trị $\mu$ luôn bằng nhau và quan hệ trên luôn đúng. Đến đây ta có thể khẳng định dạng $M^2 V^2$ có thể gấp cứng.
-	\vskip 0.05cm
-	Tương tự với dạng $M^3 V$, ta có:
-	\begin{align*}
-		\left(-\mu_a^{-1}\right)\mu_b\mu_c \left(-\mu_d^{-1}\right)=1
-	\end{align*}
-	cũng luôn đúng và dạng này cũng có thể gấp cứng.
-	\vskip 0.05cm
-	Có thể thấy, việc sử dụng đồ thị để biểu diễn quan hệ giữa các nếp gấp giúp ta phân tích quan hệ giữa chúng một cách thuận tiện và có vai trò quan trọng trong việc tìm hiểu các  tính chất của cấu trúc origami.
-	\vskip 0.05cm
-	$\pmb{3.}$ \textbf{\color{toanhocdoisong}Bài toán đếm số cách gấp}
-	\vskip 0.05cm
-	Trong origami hình học, việc đếm và liệt kê số cách gấp (cách phân bố nếp gấp lồi/lõm từ một mẫu cho trước ví dụ như Miura--ori) là một bài toán khó. Dạng toán này xuất hiện trong nhiều nghiên cứu thực tiễn, ví dụ về các màng polymer. Tuy vậy, ngay cả bài toán tưởng như đơn giản như số cách gấp con tem bưu chính theo lưới chữ nhật cũng chưa có lời giải toán học chính xác (trong khi mỗi nếp gấp có thể là lồi hoặc lõm chứ không đồng bộ theo cả hàng hay cả cột).
-	\vskip 0.05cm
-	Mặc dù chưa có một lý thuyết tổng quát cho việc liệt kê các cách gấp có thể, với một số họ nếp gấp, bài toán này có thể giải quyết được. Chúng ta hãy xét trường hợp cho Miura--ori. Miura--ori có $6$ cách phân bố nếp gấp lồi/lõm (Hình $8$). 
-		\begin{figure}[H]
-		\vspace*{5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[height=0.32\linewidth]{11a}
-		\includegraphics[height=0.32\linewidth]{11b}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $8$. Bên trái: $6$ cách phân bố lồi lõm của Miura--ori. Nét đậm là nếp gấp lồi, nét nhạt là nếp gấp lõm. Bên phải: Gấp tờ giấy làm $4$ với Miura--ori. }}
-		\vspace*{-10pt}
-	\end{figure}
-	Tại sao lại chỉ có $6$? Đó là bởi theo định lý Maekawa--Justin, số nếp gấp lồi và lõm ở một đỉnh bao giờ cũng lệch nhau $2$ đơn vị ($M-V=±2$). Thật vậy, ở trạng thái các nếp gấp đã được gập dẹt lại (ngược với trường hợp trải phẳng), các góc $\gamma$ sẽ nhận giá trị $\pi$ hoặc $-\pi$ tùy theo nếp gấp là lồi hoặc lõm. Vì các dây cung tạo thành một vòng kín, tổng của các góc $\gamma$ phải bằng một số nguyên lần của $2\pi$ và do đó ta có chênh lệch $2$ nếp gấp.
-	\vskip 0.05cm
-	Với trường hợp đơn giản nhất, nếu ta gấp tờ giấy thành $4$ với Miura--ori, ta sẽ chỉ có một đỉnh và tờ giấy được chia thành $2$ hàng và $2$ cột. Số cách gấp sẽ là $6$.
-	\vskip 0.05cm 
-	Xét trường hợp tờ giấy được gấp thành $2$ hàng và $n$ cột. Như ở trên, $M(2,2)=6$. Giả sử đã chọn được cách sắp xếp cho $(n-1)$ cột ban đầu, thì cột thứ $n$ chỉ còn $3$ cách chọn (do nếp gấp lồi chỉ nối được với nếp gấp lồi của đỉnh bên cạnh, tương tự cho nếp gấp lõm). Do đó ta có: 
-	\begin{align*}
-		M(2,n)=3M(2,n-1).
-	\end{align*}
-	Từ công thức truy hồi này ta được: $M(2,n)=2\cdot3^{n-1}$.
-	\vskip 0.05cm
-	Với các trường hợp phức tạp hơn, lập luận có phần hơi dài và rắc rối nên không được trình bày ở đây. Bạn đọc quan tâm đến dạng chứng minh tổ hợp này có thể tham khảo (Hull, $2003$) và (Ginepro \& Hull, $2014$).
-	\vskip 0.05cm
-	Với trường hợp $m$ hàng và $3$ cột, kết quả như sau:
-	\begin{align*}
-		M(m,3) = c_+ \left(\frac{1}{\alpha_+}\right)^m + c_-\left(\frac{1}{\alpha_-}\right)^m
-	\end{align*}
-	với $\alpha_{\pm} = \frac{5 \pm \sqrt{17}}{4}$ và $c_{\pm} = \frac{17 \pm 3\sqrt{17}}{34}$.
-	\vskip 0.05cm
- 	Kết quả cho một số trường hợp $m$ hàng và $n$ cột như sau:
-	\begin{table}[H]
-		\setlength{\tabcolsep}{3pt}
-		\renewcommand{\arraystretch}{1.2}
-		\resizebox{\columnwidth}{!}{\begin{tabular}{|c|c|c|c|c|}
-			\hline
-			$m/n$ & $2$ & $3$ & $4$ & $5$\\
-			\hline
-			$2$ & $6$ & $18$ & $54$ & $162$\\
-			\hline
-			$3$ & $18$ & $82$ & $374$ & $1706$\\
-			\hline
-			$4$ & $54$ & $374$ & $2604$ & $18150$\\
-			\hline
-			$5$ & $162$ & $1706$ & $18150$ & $193662$\\
-			\hline
-			$6$ & $486$ & $7782$ & $126534$ & $2068146$\\
-			\hline
-			$7$ & $1458$& $35498$ & $882180$& $22091514$\\
-			\hline
-			$8$ & $4374$ & $161926$ & $6150510$ & $235994086$\\
-			\hline
-		\end{tabular}}
-	\end{table}
-	Một điều đáng chú ý là các kết quả này giống với số cách dùng $3$ màu để tô lưới chữ nhật ($m$ hàng và $n$ cột) sao cho không có hai ô liền nhau (dọc hoặc ngang) có cùng màu và ô đầu tiên đã được tô. Với việc các nếp gấp từ các đỉnh liền nhau phải khớp với nhau, điều này cũng không quá ngạc nhiên. Bạn đọc có thể xem chi tiết chứng minh tương đương giữa hai bài toán này trong (Ginepro \& Hull, $2014$).
-	\vskip 0.05cm
-	$\pmb{4.}$ \textbf{\color{toanhocdoisong}Origami hình học và các công nghệ tương lai}
-	\vskip 0.05cm
-	Dù chỉ mới được phát triển trong vài thập kỷ qua, origami hình học đã cho thấy khả năng liên kết mạnh mẽ với nhiều ngành khoa học khác nhau. Không chỉ giúp tạo nên những vật liệu gọn hơn, bền chắc hơn như đã thấy trong các phần trước, các lý thuyết này còn đóng vai trò quan trọng trong các nghiên cứu liên ngành khác nhau trong các lĩnh vực mũi nhọn của công nghệ.
+	Một vấn đề không tránh khỏi khi thông tin được truyền tải từ nơi này đến nơi khác là việc nó có thể bị sai lệch trong quá trình truyền tin. Với các tín hiệu dạng nhị phân, một bit $0$ có thể biến thành $1$ và ngược lại. Xác suất của việc này phụ thuộc vào các đặc tính của đường truyền cũng như môi trường truyền dẫn.
 	\vskip 0.1cm
-	Những robot thiết kế nhờ origami hình học có thể thay đổi hình dạng tùy theo hoàn \linebreak cảnh có nhiều tiềm năng về ứng dụng, đặc biệt trong lĩnh vực cứu hộ. Chúng cũng có thể được kết hợp với trí tuệ nhân tạo, cho ra các cỗ máy vừa thông minh vừa linh hoạt.
+	Để đảm bảo thông tin có thể được kiểm chứng đúng/sai, ta cần ghi thông tin theo một loại mã có thể giúp ta khẳng định nó có bị lỗi hay không. Loại mã này gọi là mã phát hiện lỗi.
 	\vskip 0.05cm
-	Ứng dụng origami hình học vào công nghệ nano cũng giúp chế tạo các vật liệu có thể thay đổi hình dạng với kích thước rất nhỏ và hình dạng thay đổi phụ thuộc vào điều kiện môi trường (xung điện kích hoạt, nhiệt độ, độ ẩm, ...). Những vật liệu như vậy có nhiều ứng dụng trong cuộc sống  ví dụ như giúp cho thuốc được giải phóng trong cơ thể người ở vị trí chính xác hơn hay trong tương lai không xa là những robot công nghệ nano có khả năng tự gấp lại.
+	Một ví dụ về mã phát hiện lỗi là mã số của sách (ISBN) hoặc tạp chí (ISSN). Tạp chí Pi của chúng ta có mã ISSN là $2525-2437$. Trong $8$ chữ số của mã, chữ số cuối cùng được dùng để phát hiện lỗi. Đầu tiên, ta lấy $7$ chữ số đầu tiên, nhân mỗi một chữ số với số thứ tự tính từ bên phải (tức là $8$, $7$, $6$, $5$, ... $2$) rồi tính tổng:
+	\begin{align*}
+		&2\times8+5\times7+2\times6+5\times5+2\times4\\
+		&+4\times3+3\times2=114.
+	\end{align*}
+	Lấy tổng này chia cho $11$ rồi lại lấy $11$ trừ đi số dư sẽ được chữ số cuối cùng (nếu giá trị này là $10$ thì ký tự cuối cùng là $X$): $114$ chia $11$ dư $4$; $11 - 4 = 7$.
+	\vskip 0.1cm
+	Nếu chữ số hoặc ký tự cuối không khớp với $7$ chữ số đầu tiên, ta có thể khẳng định rằng ISSN đã bị nhập sai. Cách làm này không chỉ phát hiện lỗi do một vị trí bị thay đổi mà còn phát hiện được trường hợp hai vị trí cạnh nhau bị hoán vị (một lỗi thường thấy khi con người nhập dữ liệu) thông qua hệ số khác nhau của các vị trí. Số $11$ được chọn do nó là một số nguyên tố, không chia hết cho bất cứ hệ số nào trong phép nhân. Nếu ta chọn số $10$, nó sẽ không phát hiện được lỗi nếu chữ số ở vị trí $5$ bị thay đổi một lượng chẵn.
+	\vskip 0.1cm
+	Trong nhiều trường hợp, chỉ phát hiện được lỗi là không đủ. Thay vì yêu cầu tín hiệu được gửi lại khi có lỗi, người ta muốn sử dụng một loại mã có thể giúp sửa lỗi khi lỗi được phát hiện. Muốn vậy, khi gửi tín hiệu, ta cần thêm một số thông tin khác để trợ giúp sửa lỗi.
+	\vskip 0.1cm
+	Một cách đơn giản nhất là gửi thông tin lặp. Thay vì gửi một bit có giá trị là $0$ hoặc $1$, ta có thể gửi nhiều bit có cùng giá trị. Chẳng hạn, nếu tín hiệu nhận được là $1101110111$, với quy định là $10$ bit liền nhau sẽ có cùng một giá trị, thì ta có thể khẳng định bit được gửi đi là $1$. Cách làm đơn giản này tuy có thể giúp sửa lỗi nhưng nó rất lãng phí đường truyền.
+	\vskip 0.1cm
+	Vậy cần phải truyền thêm bao nhiêu dữ liệu và dữ liệu sửa lỗi cần phải có dạng như thế nào? Đây là những vấn đề thiết yếu của ngành lý thuyết mã hóa.
+	\vskip 0.1cm
+	Năm $1948$, những nghiên cứu của nhà toán học Claude Shannon về entropy của thông tin cùng lượng thông tin cần truyền tối thiểu để sửa lỗi đã thúc đẩy nhiều nghiên cứu về các phương thức truyền thông tin có sửa lỗi.
+	\vskip 0.1cm
+	Một loại mã sửa lỗi quan trọng ra đời vào những năm $1950$ là mã Hamming (theo tên của nhà toán học R. W. Hamming). Ta hãy xét một trường hợp rất đơn giản với dữ liệu được truyền theo $3$ bit một, với $8$ tổ hợp: $000$, $001$, $010$, $011$, $100$, $101$, $110$, $111$. Nếu ta chọn cả $8$ tổ hợp này để truyền tin thì khi có một bit bị lỗi, ta không thể tiến hành phát hiện lỗi. Một cách đơn giản là chọn các trạng thái mà khi bị lỗi, ta có thể biết được giá trị gốc của tín hiệu.
+	\vskip 0.1cm
+	Ta hãy biểu diễn $8$ tổ hợp trên $8$ đỉnh của hình lập phương. Có thể thấy khi đi từ một đỉnh đến một đỉnh kề nó thì có đúng một bit bị thay đổi. Số cạnh trên đường đi từ một đỉnh đến một đỉnh khác cho ta biết số bit bị thay đổi giữa hai trạng thái. Đây được gọi là khoảng cách Hamming giữa chúng. Ví dụ khoảng cách Hamming giữa $000$ và $101$ là $2$ còn khoảng cách giữa $000$ và $111$ là $3$.
 	\begin{figure}[H]
 		\vspace*{-5pt}
 		\centering
 		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{13}
-		\caption{\small\textit{\color{duongvaotoanhoc}Hình $9$. Robot thiết kế nhờ origami hình học với hình dạng thay đổi.}}
+		\begin{tikzpicture}[toanhocdoisong,scale=0.85]
+			\draw [] (-2.,1.)-- (1.4,0.);
+			\draw [] (1.4,0.)-- (4.,1.);
+			\draw [dashed] (4.,1.)-- (0.58,1.98);
+			\draw [dashed] (0.58,1.98)-- (-2.,1.);
+			\draw [] (-2.,1.)-- (-2.,4.5440090293338695);
+			\draw [] (-2.,4.5440090293338695)-- (0.58,5.524009029333869);
+			\draw [] (0.58,5.524009029333869)-- (4.,4.54400902933387);
+			\draw [] (4.,4.54400902933387)-- (1.4,3.5440090293338695);
+			\draw [] (1.4,3.5440090293338695)-- (-2.,4.5440090293338695);
+			\draw [] (1.4,3.5440090293338695)-- (1.4,0.);
+			\draw [] (4.,4.54400902933387)-- (4.,1.);
+			\draw [dashed] (0.58,5.524009029333869)-- (0.58,1.98);
+			\draw (-2.26,0.67) node {$(0,0,0)$};
+			\draw (1.38,-0.35) node {$(1,0,0)$};
+			\draw (4.36,0.95) node {$(1,1,0)$};
+			\draw (0.06,2.27) node {$(0,1,0)$};
+			\draw (-2.36,4.89) node {$(0,1,1)$};
+			\draw (0.5,6.11) node {$(0,1,1)$};
+			\draw (1.74,3.35) node {$(1,0,1)$};
+			\draw (4.32,4.91) node {$(1,1,1)$};
+			
+		\end{tikzpicture}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $2$. Các tổ hợp $3$ bit nhị phân biểu diễn theo dạng hình lập phương. Các đỉnh kề nhau sẽ khác biệt một bit.}}
 		\vspace*{-10pt}
 	\end{figure}
-	Có thể nói, sự phát triển mạnh mẽ của \linebreak origami hình học cho thấy vai trò của toán học ứng dụng trong nghệ thuật, công nghệ lẫn đời sống con người.
-	\vskip 0.05cm
+	Giả sử trong môi trường truyền tin, tín hiệu $3$ bit bị lỗi tối đa một bit. Để có thể xác định được trạng thái gốc từ trạng thái lỗi, ta chỉ có thể chọn các đỉnh có khoảng cách là $3$. Do đó, chỉ có thể chọn $2$ đỉnh là $000$ và $111$. Giả sử tín hiệu nhận được là $011$, ta sẽ biết được tín hiệu gốc là $111$ do khoảng cách Hamming giữa chúng là $1$ còn khoảng cách Hamming giữa $011$ và $000$ là $2$. Khi đó, $000$ và $111$ được gọi là các codeword (từ mã) cho việc truyền tín hiệu. Trong trường hợp này ta truyền đi tổng cộng $3$ bit nhưng lượng thông tin chỉ có $2$ trạng thái (ứng với $2^1$ codeword) cho nên tốc độ truyền của ta là $1/3$. Nếu chọn tập hợp các đỉnh có khoảng cách giữa chúng là $2$ (ví dụ $4$ đỉnh $000$, $011$, $101$, $110$) để làm codeword thì ta chỉ có thể phát hiện lỗi chứ không sửa lỗi (ví dụ $001$ có khoảng cách đến $000$ và $011$ đều là $1$).
+	\vskip 0.1cm 
+	Với mã Hamming, các quy tắc tính chẵn lẻ được tận dụng để thêm vào các thông tin cho phép sửa lỗi. Ta hãy xét một mã Hamming đơn giản với $7$ bit $b_1,b_2,\ldots,b_7$ theo quy tắc sau:
+	\vskip 0.1cm
+	$\bullet$ $b_1+b_3+b_5+b_7$ là chẵn
+	\vskip 0.1cm
+	$\bullet$ $b_2+b_3+b_6+b_7$ là chẵn
+	\vskip 0.1cm
+	$\bullet$ $b_4+b_5+b_6+b_7$ là chẵn
+	\vskip 0.1cm
+	Có tổng cộng $16$ codeword độ dài $7$ bit thỏa mãn các quy tắc trên (Bảng $1$). Đồng thời, các codeword này đều có khoảng cách Hamming giữa chúng là $3$.
+	\begin{table}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tabular}{c c c c c c c c}
+			\hline
+			$1$ &$0$&$0$&$0$&$0$&$0$&$0$&$0$\\
+			$2$ &$1$&$1$&$1$&$0$&$0$&$0$&$0$\\
+			$3$ &$1$&$0$&$0$&$1$&$1$&$0$&$0$\\
+			$4$ &$0$&$1$&$1$&$1$&$1$&$0$&$0$\\
+			$5$ &$0$&$1$&$0$&$1$&$0$&$1$&$0$\\
+			$6$ &$1$&$0$&$1$&$1$&$0$&$1$&$0$\\
+			$7$ &$1$&$1$&$0$&$0$&$1$&$1$&$0$\\
+			$8$ &$0$&$0$&$1$&$0$&$1$&$1$&$0$\\
+			$9$ &$1$&$1$&$0$&$1$&$0$&$0$&$1$\\
+			$10$ &$0$&$0$&$1$&$1$&$0$&$0$&$1$\\
+			$11$ &$0$&$1$&$0$&$0$&$1$&$0$&$1$\\
+			$12$ &$1$&$0$&$1$&$0$&$1$&$0$&$1$\\
+			$13$ &$1$&$0$&$0$&$0$&$0$&$1$&$1$\\
+			$14$ &$0$&$1$&$1$&$0$&$0$&$1$&$1$\\
+			$15$ &$0$&$0$&$0$&$1$&$1$&$1$&$1$\\
+			$16$ &$1$&$1$&$1$&$1$&$1$&$1$&$1$\\
+			\hline
+		\end{tabular}	
+		\caption{\small\textit{\color{toanhocdoisong}Bảng $1$. $16$ codeword độ dài $7$ bit.}}
+		\vspace*{-10pt}
+	\end{table}
+	Khi giải mã tín hiệu, các tín hiệu vi phạm những quy tắc chẵn lẻ sẽ bị coi là lỗi. Việc phát hiện lỗi nằm ở bit nào (giả sử chỉ có $1$ bit bị lỗi) thì phức tạp hơn một chút. Tuy ta có thể dò xem codeword nào có khoảng cách ngắn nhất đến tín hiệu bị lỗi, việc này khá mất thời gian. Thay vì đó, người ta sử dụng dạng ma trận của các quy tắc được sử dụng để xây dựng mã (Bảng $2$).
+	\begin{table}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tabular}{ccccccc}
+			\hline
+			$b_1$ & $b_2$& $b_3$& $b_4$&$b_5$ &$b_6$ &$b_7$\\
+			\hline
+			$1$ & $0$&$1$&$0$&$1$&$0$&$1$\\
+			$0$ & $1$&$1$&$0$&$0$&$1$&$1$\\
+			$0$ & $0$&$0$&$1$&$1$&$1$&$1$\\
+		\end{tabular}	
+		\caption{\small\textit{\color{toanhocdoisong}Bảng $2$. Ma trận ứng với $3$ quy tắc trong mã Hamming mà ta đang xét.}}
+		\vspace*{-5pt}
+	\end{table}
+	Ví dụ, với chuỗi tín hiệu lỗi $1101101$, nó vi phạm quy tắc $1$ và $3$. Ta cần tìm cột trong ma trận mà khi bit ứng với cột này bị lật ngược lại thì chỉ có quy tắc $1$ và $3$ bị ảnh hưởng còn quy tắc $2$ không thay đổi. Nói cách khác, ta cần tìm cột có dạng:
+	\begin{align*}
+		1\\[-0.5ex]
+		0\\[-0.5ex]
+		1
+	\end{align*}
+	tức là cột thứ $5$ trong ma trận. Do đó, có thể kết luận bit thứ $5$ bị lỗi và codeword gốc là $1101001$.
+	\vskip 0.1cm
+	Mã Hamming $7$ bit trên có $2^4=16$ codeword, tức là khi truyền đi $7$ bit, ta thu được lượng thông tin tương đương với $4$ bit. Tốc độ truyền ở đây là $4/7$. Tùy theo nhu cầu, người ta có thể thiết kế các mã Hamming với khoảng cách giữa các codeword lớn hơn để có thể sửa lỗi cho nhiều hơn $1$ bit.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[height= 0.575\linewidth]{2}
+		\includegraphics[height= 0.575\linewidth]{3}
+		\caption{\small\textit{\color{toanhocdoisong}Trái: Irving Reed ($1923 - 2012$). Phải: Gustave Solomon ($1930 - 1996$).}}
+		\vspace*{-10pt}
+	\end{figure}
+	Sau khi Hamming đưa ra mã sửa lỗi thực tiễn đầu tiên sử dụng các kỹ thuật đại số tuyến tính như trên, cuộc đua giữa các nhà toán học để tìm ra những cách mã hóa tốt hơn trở nên sôi động. Một dấu ấn quan trọng của ngành mã hóa là sự ra đời của mã Reed -- Solomon, được hai nhà toán học Irving Reed và Gustave Solomon công bố năm $1960$. Mã này sử dụng các cấu trúc đại số phức tạp hơn bao gồm trường Galois cùng các đa thức trên trường này (xem chi tiết ở phần phụ lục). Với nhiều lợi thế so với mã Hamming về khả năng sửa lỗi cũng như tốc độ truyền, mã Reed -- Solomon đã có nhiều ứng dụng rộng rãi trong các lĩnh vực của đời sống. Một trong số những ứng dụng đó chính là mã QR. 
+	\vskip 0.1cm
+	$\pmb{2.}$ \textbf{\color{toanhocdoisong}Mã QR}
+	\vskip 0.1cm
+	Mã QR (viết tắt của Quick Response) mà chúng ta quen thuộc được kỹ sư người Nhật, Masahiro Hara thiết kế năm $1994$ khi làm tại công ty Denso Wave. Lúc đó, Masahiro được giao nhiệm vụ thiết kế một loại mã mới để thay thế mã dạng barcode (mã vạch) (Hình $3$). Tuy mã barcode đã được dùng rất phổ biến trong cả sản xuất lẫn phân phối, nhưng vì nó ghi lại thông tin theo một chiều nên dung lượng thông tin của barcode ($20$ ký tự) đã không còn đáp ứng được nhu cầu thực tế với sự đa dạng hóa sản xuất đầu những năm $1990$ ở Nhật. Để lưu trữ những thông tin dài, người ta thường phải sử dụng nhiều barcode cùng lúc và do đó phải tiến hành quét nhiều lần cho mỗi sản phẩm.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		$a)$\includegraphics[width= 0.9\linewidth]{4}
+		$b)$\includegraphics[width= 0.9\linewidth]{5}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $3.$ $a)$ Mã barcode gồm cách vạch với độ dày và khoảng cách khác nhau. $b)$ Thực chất của mã barcode là các cột màu trắng hoặc đen liên tiếp ứng với các bit $0$ hoặc $1$ để biểu diễn thông tin đã được chuyển từ dạng ký tự sang dạng bit.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Để có thể chứa được nhiều thông tin hơn, Masahiro quyết định sử dụng mã dạng hình vuông (hai chiều không gian thay vì một chiều như barcode). Vấn đề đầu tiên là làm thế nào để thiết bị có thể nhận diện được vùng mã khi quét. Masahiro đã nảy ra ý tưởng đưa thêm các hình hình học vào các góc để giúp định vị mã.
+	\vskip 0.1cm
+	Tuy nhiên, việc chọn hình hình học này thế nào cũng là vấn đề khó bởi trong thực tế có thể có các hình hình học khác ở gần mã của ta làm phần mềm không thể nhận diện được mã một cách chính xác. Sau một thời gian nghiên cứu về tỷ lệ giữa các vùng trắng/đen trong các nội dung  ảnh hoặc văn bản trên báo, tạp chí, tờ rơi, thùng carton, và nhiều tài liệu khác; nhóm làm việc của Masahiro quyết định sử dụng hình ô vuông như ta thấy ở ba góc của mã QR ngày nay. Hình ô vuông này có tỷ lệ các phần đen/trắng khi quét theo các góc khác nhau đều là $1 : 1 : 3 : 1 : 1$. Theo kết quả thống kê thì tỷ lệ này ít xuất hiện nhất trên các vật liệu in thực tế nên mã QR sẽ không bị lẫn vào môi trường xung quanh và có thể được thiết bị quét nhận diện tự động nhanh chóng sau khi tiến hành quét.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=1\linewidth]{6}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $4$. Ô vuông định vị cho mã QR và tỷ lệ đen/trắng khi quét.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Một vấn đề thực tế khác mà Masahiro muốn giải quyết với mã QR là tình trạng các vết bẩn làm sai lệch thông tin. Trong các môi trường như nhà xưởng, cửa hàng, ... mã đã in ra có thể dễ dàng bị dính các loại dầu, bụi đất, ... Để việc đọc mã có thể tiến hành thuận lợi trong các điều kiện này, ông sử dụng mã sửa lỗi Reed -- Solomon để ghi thông tin thay vì chuyển trực tiếp từ dạng ký tự sang dạng bit như mã barcode. Do đó, thông tin bị sai lệch ở mức độ cho phép trong quá trình quét có thể được sửa lại thay vì phải quét lại hoặc làm sạch vùng chứa mã.
+	\vskip 0.1cm
+	Từ khi được Masahiro thiết kế đến nay, mã QR đã trải qua nhiều phiên bản. Về cơ bản, một mã QR gồm các nội dung như trong Hình $4$. Ngoài các ô vuông định vị và phần thông tin sử dụng mã Reed -- Solomon, mã QR còn gồm một số thành phần khác như ô vuông gióng hàng, phần viền trắng (để tách biệt với xunh quanh) và các phần ghi một số thông tin khác về phiên bản mã và định dạng mã, ...
+	\begin{figure}[H]
+		\vspace*{-10pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		$a)$\includegraphics[height=0.38\linewidth]{7}
+		$b)$\includegraphics[height=0.38\linewidth]{8}
+		$c)$\includegraphics[height=0.38\linewidth]{9}
+		$d)$\includegraphics[height=0.38\linewidth]{10}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $5$. Một số thành phần của mã QR. $a)$ Các ô định vị. $b)$ Ô vuông gióng hàng. $c)$ Phần ghi dữ liệu. $d)$ Phần viền trắng.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Khi mã hóa, các thông tin thực tế (chữ số, ký tự, ...) đã được chuyển thành dạng bit nhị phân theo quy tắc định trước (tùy theo phiên bản mã QR) sẽ được mã hóa thành mã Reed -- Solomon dạng bit. Các bit được ghi lên trên hình vuông theo cách thức như trong Hình $6$. Vị trí đen ứng với bit $1$ còn vị trí trắng ứng với bit $0$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[height=0.38\linewidth]{11}
+		
+		\includegraphics[height=0.38\linewidth]{12}
+		\includegraphics[height=0.38\linewidth]{13}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $6$. Thông tin sau khi được mã hóa theo mã Reed -- Solomon sẽ được ghi theo các làn như hình vẽ (trên). Ứng với mỗi chiều trong làn, thông tin sẽ được ghi trong hai cột (dưới) với màu đen đại diện bit $1$ còn màu trắng đại diện bit $0$.}}
+		\vspace*{-5pt}
+	\end{figure}
+	Khi thiết bị quét mã QR, phần mềm sẽ định vị mã dựa vào vị trí của các ô vuông đánh dấu và tiến hành quét phần dữ liệu. Dữ liệu sau khi quét được tiến hành giải mã theo thuật toán giải mã của mã Reed -- Solomon. Do khả năng sửa lỗi của mã này nên nếu quá trình quét có một số bit bị nhận diện sai (đen thành trắng hoặc trắng thành đen), phần mềm vẫn có thể tiến hành sửa lỗi để cho ra thông tin ban đầu. Nếu số lượng lỗi vượt quá khả năng sửa lỗi của thuật toán, người dùng phải tiến hành quét lại.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		$a)$\includegraphics[width= 0.95\linewidth]{14}
+		$b)$\includegraphics[width= 0.95\linewidth]{15}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $7$. $a)$ Masahiro và mã QR do ông phát minh. $b)$ Masahiro có ý tưởng về các ô đen trắng cho mã QR từ trò chơi Go (cờ vây) mà ông hay chơi trong giờ nghỉ.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Ngày nay, với sự phổ biến của các thiết bị điện thoại thông minh, mã QR đã xuất hiện không chỉ ở trong các dây chuyền sản xuất mà còn được ứng dụng ở rất nhiều hoạt động của đời sống trên thế giới, từ thanh toán ngân hàng đến các giao dịch ở cửa hàng, siêu thị, bệnh viện, phương tiện công cộng, ... Nó cũng có vai trò quan trọng trong việc truy vết COVID $19$ ở nhiều nơi trên thế giới trong thời gian vừa qua; bản thân Masahiro cũng nói rằng ông cảm thấy rất hài lòng về sự đóng góp này của mã QR.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{16}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $8$. Việc sử dụng mã QR giúp tiến hành các giao dịch không cần tiền mặt chỉ với điện thoại di động.}}
+		\vspace*{-10pt}
+	\end{figure}
+	$\pmb{3.}$ \textbf{\color{toanhocdoisong}Một số ứng dụng khác của mã Reed -- Solomon}
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{17}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $9$. Dữ liệu được mã hóa thành mã Reed - Solomon trước khi ghi trên bề mặt của các đĩa quang học.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Mã Reed -- Solomon đã từ lâu được sử dụng để mã hóa dữ liệu cho các loại đĩa lưu trữ thường thấy trong đời sống như CD, DVD, MiniDisc và Blu--ray. Dữ liệu nhị phân sau khi chuyển thành mã Reed -- Solomon sẽ được ghi lên bề mặt đĩa tạo thành các rãnh lồi lõm. Khi đầu đọc đọc lại các bit này, chúng sẽ được giải mã theo thuật toán giải mã tương ứng để cho ra dữ liệu ban đầu. Do khả năng khôi phục lỗi của mã Reed -- Solomon, ngay cả khi có lỗi lúc đọc (thường do bề mặt đĩa bị bụi, bẩn, ...), hệ thống vẫn có thể khôi phục dữ liệu gốc.
+	\vskip 0.1cm
+	Mã Reed -- Solomon cũng được sử dụng để mã hóa dữ liệu cho việc truyền tin của ngành viễn thông, theo dây cáp lẫn vô tuyến. Đặc biệt, mã này được sử dụng trên các thiết bị thăm dò không gian của NASA như tàu thăm dò Voyager $1$ và nhiều tàu thăm dò sau đó.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{18}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $10$. Tàu thăm dò Voyager $1$ của NASA.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Mã Reed -- Solomon còn xuất hiện ở các hệ thống lưu trữ trong trung tâm dữ liệu. Trong kết nối ổ cứng theo dạng RAID $6$, các mã Reed -- Solomon để sửa lỗi cho dữ liệu của mỗi ổ cứng sẽ được hệ thống phân bố ở các ổ khác. Nếu một ổ cứng bị hỏng, dữ liệu có thể được khôi phục từ dữ liệu cùng các mã Reed -- Solomon ở trong các ổ cứng còn lại. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{19}
+		\caption{\small\textit{\color{toanhocdoisong}Hình $11$. Lưu trữ dữ liệu trên $5$ ổ cứng theo dạng RAID $6$. Dữ liệu cũng như thông tin sửa lỗi được chia ra để lưu trữ ở các ổ cứng khác nhau để cho phép phục hồi trong trường hợp một trong các ổ cứng này bị hỏng.}}
+		\vspace*{-5pt}
+	\end{figure}
+	\columnbreak
+	$\pmb{4.}$ \textbf{\color{toanhocdoisong}Lời kết}
+	\vskip 0.1cm
+	Sự xuất hiện của trường Galois dưới dạng cơ sở lý thuyết của mã Reed -- Solomon cho thấy ngay cả những khái niệm trừu tượng và phức tạp trong toán học cũng có thể đóng vai trò quan trọng trong ứng dụng thực tiễn nếu ta tiến hành mô hình hóa bài toán một cách phù hợp. Mã Reed -- Solomon cũng như các ứng dụng đa dạng của nó sẽ không xuất hiện nếu không có những nghiên cứu toán học thuần túy từ hơn một thế kỷ trước đó của Galois. Ngày nay, lĩnh vực lý thuyết mã hóa vẫn còn rất nhiều vấn đề toán học thú vị khác với nhiều cơ hội cho những ai muốn tìm tòi khám phá.
+	\vskip 0.1cm
+	\textbf{\color{toanhocdoisong}Phụ lục. Trường Galois và mã Reed -- Solomon}
+	\vskip 0.1cm
+	Trong đại số, trường là một tập hợp mà trên đó có thể định nghĩa phép cộng và phép nhân với các tính chất giao hoán và kết hợp. Đồng thời, trong trường phải tồn tại phần tử $0$ và $1$ sao cho với phần tử $a$ bất kì của trường thì $a+0=a$; $a\cdot1=1$. Mỗi phần tử của trường đều phải có phần tử đối (với phép cộng) và phần tử nghịch đảo (với phép nhân, trừ trường hợp nghịch đảo của $0$) cũng nằm trong trường này.
+	\vskip 0.1cm
+	Ví dụ, tập hợp các số nguyên $\mathbb{Z}$ không phải là một trường vì nghịch đảo của một số nguyên có thể không phải là một số nguyên. Trong khi đó, tập hợp các số hữu tỷ $\mathbb{Q}$ hay tập hợp các số thực $\mathbb{R}$ đều là một trường.
+	\vskip 0.1cm
+	Trường Galois (còn gọi là trường hữu hạn), được đặt tên theo nhà toán học Evariste Galois, là một trường có số phần tử là hữu hạn. Trường Galois $GF(q)$ (có $q$ phần tử) luôn chứa một phần tử $\alpha$ sao cho cả các phần tử khác $0$ của trường đều là các lũy thừa của $\alpha$: $\{1,\alpha,\alpha^2,\ldots,\alpha^{q-2}\}$. Khi đó ta cũng có $\alpha^{q-1}=1$.
+	\vskip 0.1cm
+	Thông qua các đa thức, người ta có thể liên hệ trực tiếp trường Galois $GF(2^n)$ với tập hợp các số nhị phân có $n$ bit. Đây cũng là cách mã Reed -- Solomon cùng nhiều mã sửa lỗi khác được xây dựng.
+	\vskip 0.1cm
+	Với $n=1$, ta có trường Galois $GF(2)$ gồm hai phần tử $\{0,1\}$ cùng phép cộng và phép nhân như trong hệ cơ số nhị phân nhưng phép cộng ở đây không có nhớ: $1+1=0$.
+	\vskip 0.1cm
+	Với $n > 1$, ta hãy thử xét trường hợp $n=3$. Tập hợp các số nhị phân $3$ bit sẽ gồm $\{000, 001, 010, 100, 011, 110, 101, 111\}$. Với mỗi số nhị phân này, ta có một đa thức tương ứng trong đó các bit được dùng làm hệ số của các đơn thức trong đa thức. Ví dụ $111$ ứng với $x^2+x+1$; $011$ ứng với $x+1$, ...
+	\vskip 0.1cm
+	Ta coi các hệ số của các đa thức trên là các phần tử của $GF(2)$. Do đó, phép cộng đa thức sẽ không có nhớ, chẳng hạn:
+	\begin{align*}
+		&x^2+x^2=(1+1) x^2=0,\\
+		&(x^2+x)+x=x^2+(1+1)x=x^2+0=x^2.
+	\end{align*}
+	Để thu được trường hữu hạn, thay vì sử dụng phép nhân đa thức thông thường, người ta sử dụng phép nhân modulo một đa thức đặc trưng (tức là tiến hành nhân thông thường sau đó chia cho đa thức đặc trưng để lấy số dư). Với $GF(2^3)$, một đa thức đặc trưng của nó là $x^3+x^2+1$. Ta có thể biểu diễn các đa thức khác theo số dư khi chia cho đa thức này:
+	\begin{align*}
+		x^3&\equiv x+1,\\
+		x^4&\equiv x(x^3 )\equiv x(x+1)\equiv x^2+x,\\
+		x^5&\equiv x(x^4 )\!\equiv \!x(x^2\!+\!x)\!\equiv\! x^3\!+\!x^2\!\equiv\! x^2\!+\!x\!+\!1,\\
+		x^6&\equiv x(x^5 )\equiv x(x^2+x+1)\equiv x^3+x^2+x\\
+		&\equiv(x+1)+x^2+x\equiv x^2+1,\\
+		x^7&\equiv x(x^6 )\equiv x^3\!+\!x\equiv x\!+\!(x\!+\!1)\equiv 1\equiv x^0.
+	\end{align*}
+	Do tính tuần hoàn của các biểu diễn này nên kết quả phép nhân luôn cho ta một đa thức trong $8$ đa thức ban đầu và ta thu được một trường Galois $GF(2^3)$. Người ta chứng minh được rằng cho trường hợp $n>1$ bất kỳ, luôn có thể tìm được đa thức đặc trưng để xây dựng trường Galois cùng phần tử $\alpha$ tương ứng của trường này (chú ý rằng phép toán lũy thừa trên trường cũng tuân theo quy tắc nhân modulo trên).
+	\vskip 0.1cm
+%		\begin{figure}[H]
+%		\vspace*{-5pt}
+%		\centering
+%		\captionsetup{labelformat= empty, justification=centering}
+%		\includegraphics[width= 0.5\linewidth]{20}
+%		\caption{\small\textit{\color{toanhocdoisong}Evariste Galois $(1811 - 1832)$.}}
+%		\vspace*{-10pt}
+%	\end{figure}
+	Trong mã Reed -- Solomon, việc mã hóa được tiến hành cho từng gói gồm $k$ phần tử của $GF(2^n)$. Nói cách khác, quá trình mã hóa được tiến hành cùng lúc cho $k$ số nhị phân, mỗi số $n$ bit. Ký hiệu các phần tử của gói là $m_0,m_1,\ldots,m_{k-1}$. Ta xây dựng được một đa thức:
+	\begin{align*}
+		P(x)=m_0+m_1x+ \cdots +m_{k-1} x^{k-1}.
+	\end{align*}
+	Chú ý rằng đa thức này khác với những đa thức đã nói ở trên. Những đa thức ở phía trên có hệ số là $0$ hoặc $1$ (phần tử của $GF(2)$) còn đa thức $P(x)$ của ta có các hệ số $m_i$ là các phần tử của $GF(2^n)$. Một codeword được tạo ra bằng cách tính các giá trị của $P(x)$ cho từng phần tử của trường Galois $GF(2^n)$:
+	\begin{align*}
+	c &\!=\! \left(c_0,c_1,c_2,\ldots,c_{q-1}\right) \\
+	&\!=\!\! \left[\!P(0), P(\!\alpha\!), P(\alpha^2), \ldots, P(\alpha^{q-1}\!)\!\right]\!,q \!=\! 2^n,
+	\end{align*}
+	Do mỗi phần tử $m_i$ có thể nhận một trong $q=2^n$ giá trị nên có tổng cộng $q^k$ codeword trong mã Reed -- Solomon. Ứng với mỗi codeword, ta có một hệ phương trình:
+	\begin{align*}
+		P(0)=\,&m_0, \\
+		P(\alpha)=\,&m_0+m_1 \alpha+m_2 \alpha^2+\cdots\\
+		&+m_{k-1} \alpha^{k-1},\\
+		P(\alpha^2 )=\,&m_0+m_1 \alpha^2+m_2 \alpha^4+\cdots\\
+		&+m_{k-1} \alpha^{2(k-1)},\\ 
+		...&\\
+		P(\alpha^{q-1})=\,&m_0+m_1 \alpha^{q-1}+m_2 \alpha^{2(q-1)} \\
+		&+\cdots+m_{k-1} \alpha^{(k-1)(q-1)}. 
+	\end{align*}
+	Chọn bất kỳ $k$ trong số $q$ phương trình trên, ta được một hệ phương trình mà từ đó có thể giải để tìm các $m_i$.
+	\vskip 0.1cm
+	Trong trường hợp đường truyền bị lỗi, giả sử có $t$ trong số $q$ phương trình bị lỗi (giá trị $P\left(\alpha^i\right)$ tương ứng bị lỗi). Khi đó, nếu ta thử tất cả các tổ hợp có thể gồm $k$ phương trình từ $q$ phương trình, sẽ có $\left( \begin{array}{l}
+		t + k - 1\\
+		k
+	\end{array} \right)$ hệ phương trình cho kết quả $m_i$ khác với các hệ phương trình còn lại. Do đó, việc sửa lỗi có thể được tiến hành bằng cách lấy kết quả chiếm đa số, với điều kiện là  $\left( \begin{array}{l}
+	t + k - 1\\
+	k
+\end{array} \right) < \left( \begin{array}{l}
+q - t\\
+k
+\end{array} \right)$. Số lỗi lớn nhất có thể sửa là số nguyên $t$ nhỏ hơn hoặc bằng $\dfrac{1}{2}(q-k+1)$.
+\vskip 0.1cm
+	Việc thử các tổ hợp hệ phương trình khác nhau theo đề xuất ban đầu của Reed và Solomon là tương đối phức tạp về mặt cài đặt trong thực tế nên sau đó người ta đã đưa ra hai hướng tiếp cận khác để tạo mã Reed -- Solomon, một sử dụng đa thức sinh và một sử dụng biến đổi Fourier trên trường Galois (Wicker, $1994$).
+	\vskip 0.1cm
 	\textbf{\color{toanhocdoisong}Tài liệu tham khảo}
-	\vskip 0.05cm
-	[$1$] Felton, S., Tolley, M., Demaine, E., Rus, D., \& Wood, R. ($2014$, Aug). Applied origami. A method for building self--folding machines. \textit{Science}, $644-6$.
-	\vskip 0.05cm
-	[$2$] Ginepro, J., \& Hull, T. C. ($2014$). Counting Miura--ori Foldings. \textit{Journal of Integer Sequences}, $17$.
-	\vskip 0.05cm
-	[$3$] Hull, T. ($2003$). Counting Mountain--Valley Assignments for Flat Folds. \textit{Ars Combinatoria}, $67$, $175-188$.
-	\vskip 0.05cm
-	[$4$] Lang, R. J. ($2009$). \textit{Origami$4$}. AK Peters.
-	\vskip 0.05cm
-	[$5$] Lang, R. J. ($2018$). \textit{Twists, Tilings, and Tessellations. Mathematical Methods for Geometric Origami}. CRC Press.
-	\vskip 0.05cm
-	[$6$] Tachi, T., \& Hull, T. C. ($2017$, April). Self--Foldability of Rigid Origami. \textit{Journal of Mechanisms and Robotics}, $9$.
+	\vskip 0.1cm
+	[$1$] Aktaş, C. ($2017$). \textit{The evolution and emergence of QR codes}. Cambridge Scholars Publishing.
+	\vskip 0.1cm
+	[$2$] Reed, I. S., \& Solomon, G. ($1960$). \textit{Polynomial Codes Over Certain Finite Fields}. Journal of the Society for Industrial and Applied Mathematics, $8(2)$, $300-304$. 
+	[$3$] Wicker, S. B., \& Bhargava, V. K. ($1994$). \textit{Reed--Solomon codes and their applications}. IEEE.
 \end{multicols}
