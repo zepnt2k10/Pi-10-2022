@@ -182,7 +182,7 @@
 			$\alpha  = 1$, $\beta  = 0$. Vậy 
 			$f(x)= x$ 	với mọi số thực dương $x$.
 			\vskip 0.1cm
-			textbf{Cách $\pmb{2.}$} 
+			\textbf{\color{hoccungpi}Cách $\pmb{2.}$} 
 			Trước hết,  ta sẽ nhắc lại kết quả quen thuộc về phương trình hàm Cauchy: Nếu hàm số 	$f:\mathbb{R^+}  \to \mathbb{R^+} $ thỏa mãn 
 			\begin{align*}
 				f(x+y)=f(x)+f(y)
@@ -195,7 +195,8 @@
 			\end{align*}
 			Mà
 			\begin{align*}
-				&f\left( {x + y + z + f(z) + f(y) + 2z} \right) \\
+				&f\left(x + y + z + f(z) + f\left(y+ z + f(z)\right)\right)\\
+				= &f\left( {x + y + z + f(z) + f(y) + 2z} \right) \\
 				=&  f\left( {x + y + f(y) + 2z + \left( {z + f(z)} \right)} \right) \\
 				=&f\left( {x + 2z + y + f(y)} \right) + 2z\\
 				=& f\left( {x + 2z} \right) + 2y + 2z 
@@ -206,7 +207,9 @@
 			\end{align*}	
 			với mọi số thực dương $x$,  $z$.
 			Từ ($2$), thay $z$ bởi $z+y$, ta được
-			$$f\left( {x + 2z + 2y} \right) = f(x) + 2f(z + y);$$
+			\begin{align*}
+				f\left( {x + 2z + 2y} \right) = f(x) + 2f(z + y);
+			\end{align*}
 			mà 
 			$f\left( {x + 2z + 2y} \right)=f(x + 2z) + 2f(y) =f(x) + 2f(z) + 2f(y)$ nên 
 			\begin{align*}
@@ -345,6 +348,7 @@
 			f(f(x+f(x))+y)=2 x+f(y)
 	\end{align*}
 	với mọi số thực dương $x$, $y$.
+	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Bài toán $\pmb{7.}$ (Romania $\pmb{2014}$).}
 	Tìm tất cả các hàm số $f: \mathbb{R}^{+} \rightarrow \mathbb{R}^{+}$ thỏa mãn
 	\begin{align*}

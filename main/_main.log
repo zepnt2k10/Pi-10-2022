@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  12 SEP 2022 11:53
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  15 SEP 2022 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2782,7 +2782,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 79.
 
-(../toanhocdoisong/toanhocdoisong2.tex
+(../hoccungpi/hoccungpi2.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  5.
 
@@ -2940,19 +2940,12 @@ d/EBGaramond-Italic.otf
 Package microtype Info: Character `156' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
-File: ../toanhocdoisong/pic2//1a.jpg Graphic file (type bmp)
-<../toanhocdoisong/pic2//1a.jpg>
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 24.
+(Font)              scaled to size 12.0pt on input line 14.
 Requested font "[EBGaramond-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 mapping=tex-text;" at 12.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
 d/EBGaramond-Bold.otf
-
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 31.
-
 
 Overfull \vbox (11.62634pt too high) has occurred while \output is active []
 
@@ -2966,47 +2959,99 @@ Package microtype Info: Loading generic protrusion settings for font family
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm/lmsans
 8-regular.otf
-File: ../toanhocdoisong/pic2//../bannertoanhocdoisong.jpg Graphic file (type bm
-p)
-<../toanhocdoisong/pic2//../bannertoanhocdoisong.jpg>
-File: ../toanhocdoisong/pic2//../tieude2.pdf Graphic file (type pdf)
-<use ../toanhocdoisong/pic2//../tieude2.pdf>
-File: ftoanhocds2.pdf Graphic file (type pdf)
-<use ftoanhocds2.pdf>
-File: ftoanhocds2.pdf Graphic file (type pdf)
-<use ftoanhocds2.pdf>
-File: ftoanhocds2.pdf Graphic file (type pdf)
-<use ftoanhocds2.pdf>
+File: ../hoccungpi/pic//../bannerhoccungpi.jpg Graphic file (type bmp)
+<../hoccungpi/pic//../bannerhoccungpi.jpg>
+File: ../hoccungpi/pic//../tieude.pdf Graphic file (type pdf)
+<use ../hoccungpi/pic//../tieude.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
 
 [1
 
 ]
-File: toanhocds1.pdf Graphic file (type pdf)
-<use toanhocds1.pdf>
-File: ftoanhocds1.pdf Graphic file (type pdf)
-<use ftoanhocds1.pdf>
-File: toanhocds1.pdf Graphic file (type pdf)
-<use toanhocds1.pdf>
-File: ftoanhocds1.pdf Graphic file (type pdf)
-<use ftoanhocds1.pdf>
-File: toanhocds1.pdf Graphic file (type pdf)
-<use toanhocds1.pdf>
-File: ftoanhocds1.pdf Graphic file (type pdf)
-<use ftoanhocds1.pdf>
- [2])
-File: toanhocds2.pdf Graphic file (type pdf)
-<use toanhocds2.pdf>
-File: ftoanhocds2.pdf Graphic file (type pdf)
-<use ftoanhocds2.pdf>
-File: toanhocds2.pdf Graphic file (type pdf)
-<use toanhocds2.pdf>
-File: ftoanhocds2.pdf Graphic file (type pdf)
-<use ftoanhocds2.pdf>
-File: toanhocds2.pdf Graphic file (type pdf)
-<use toanhocds2.pdf>
-File: ftoanhocds2.pdf Graphic file (type pdf)
-<use ftoanhocds2.pdf>
- [3] (_main.aux)
+Overfull \hbox (0.54234pt too wide) detected at line 84
+[]
+ []
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 105.
+Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
+m;mapping=tex-text;" at 12.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Italic.otf
+Package microtype Info: Character `156' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+
+Overfull \hbox (1.00883pt too wide) in paragraph at lines 131--137
+\TU/EBGaramond(0)/m/n/12 đây là điều vô lý (do $[][]   []$[]
+ []
+
+File: hoccungpi1.pdf Graphic file (type pdf)
+<use hoccungpi1.pdf>
+File: fhoccungpi1.pdf Graphic file (type pdf)
+<use fhoccungpi1.pdf>
+File: hoccungpi1.pdf Graphic file (type pdf)
+<use hoccungpi1.pdf>
+File: fhoccungpi1.pdf Graphic file (type pdf)
+<use fhoccungpi1.pdf>
+File: hoccungpi1.pdf Graphic file (type pdf)
+<use hoccungpi1.pdf>
+File: fhoccungpi1.pdf Graphic file (type pdf)
+<use fhoccungpi1.pdf>
+[2]
+File: hoccungpi2.pdf Graphic file (type pdf)
+<use hoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+File: hoccungpi2.pdf Graphic file (type pdf)
+<use hoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+File: hoccungpi2.pdf Graphic file (type pdf)
+<use hoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+ [3]
+Overfull \hbox (4.10762pt too wide) detected at line 287
+[]
+ []
+
+
+Overfull \hbox (4.99594pt too wide) detected at line 300
+[]
+ []
+
+File: hoccungpi1.pdf Graphic file (type pdf)
+<use hoccungpi1.pdf>
+File: fhoccungpi1.pdf Graphic file (type pdf)
+<use fhoccungpi1.pdf>
+File: hoccungpi1.pdf Graphic file (type pdf)
+<use hoccungpi1.pdf>
+File: fhoccungpi1.pdf Graphic file (type pdf)
+<use fhoccungpi1.pdf>
+File: hoccungpi1.pdf Graphic file (type pdf)
+<use hoccungpi1.pdf>
+File: fhoccungpi1.pdf Graphic file (type pdf)
+<use fhoccungpi1.pdf>
+[4])
+File: hoccungpi2.pdf Graphic file (type pdf)
+<use hoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+File: hoccungpi2.pdf Graphic file (type pdf)
+<use hoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+File: hoccungpi2.pdf Graphic file (type pdf)
+<use hoccungpi2.pdf>
+File: fhoccungpi2.pdf Graphic file (type pdf)
+<use fhoccungpi2.pdf>
+ [5] (_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3017,12 +3062,12 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67462 strings out of 410939
- 1529353 string characters out of 2823530
- 2594267 words of memory out of 3000000
- 87005 multiletter control sequences out of 15000+600000
- 495761 words of font info for 111 fonts, out of 8000000 for 9000
+ 67437 strings out of 410939
+ 1528636 string characters out of 2823530
+ 2598265 words of memory out of 3000000
+ 86981 multiletter control sequences out of 15000+600000
+ 495769 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,11n,120p,1221b,541s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 104i,12n,120p,1132b,563s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on _main.pdf (3 pages).
+Output written on _main.pdf (5 pages).
