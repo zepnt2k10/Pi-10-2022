@@ -836,4 +836,129 @@ $d.$ Từ các lập luận ở trên, ta thấy rằng không có số nguyên 
 \vskip 0.05cm
 [$3$] {\color{cackithi}https://www.freemaths.fr/annales-olym\\piades-mathematiques-premieres-scientifiqu\\es-s/nationales/2022}
 \end{multicols}
+\newpage
+\begingroup
+\AddToShipoutPicture*{\put(150,698){\includegraphics[scale=1]{../tieude1.pdf}}} 
+\centering
+\endgroup
+\vspace*{5pt}
+
+\begin{multicols}{2}
+	\setlength{\abovedisplayskip}{6pt}
+	\setlength{\belowdisplayskip}{6pt}
+	Trong phần đầu chuyên mục, chúng tôi sẽ trình bày lời giải của các bài toán trong kỳ thi Olympic Toán học của Hà Lan năm học $2020-2021$ đăng trong số báo $6/2022$. 
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=0.9\linewidth]{gocolympic}
+		\vspace*{-10pt}
+	\end{figure}
+	{\bf\color{cackithi} OC$\pmb{13.}$} Bằng cách thay mỗi dấu $\ast$ trong biểu thức
+	\begin{align*}
+		1 \ast  2 \ast 3  \ast 4 \ast 5 \ast \cdots \ast 2019 \ast 2020
+	\end{align*}
+	bởi dấu $+$ hoặc dấu $-$, ta được một phép tính. Hãy thay các dấu $+$ và $-$ vào như vậy để kết quả của phép tính nhận được là dương và nhỏ nhất có thể.
+	\vskip 0.1cm
+	\textit{Lời giải.} Ta nhận xét rằng hai số $a+b$ và $a-b$ có cùng tính chẵn lẻ. Do đó dù thay các dấu $+, -$ vào như thế nào thì kết quả của phép tính thu được cũng luôn chẵn vì có cùng tính chẵn lẻ với tổng
+	\begin{align*}
+		1 +  2 + 3   \cdots + 2019 + 2020= 2021 \!\times\! 1010.
+	\end{align*}
+	Như vậy nếu kết quả là số dương thì luôn lớn hơn hoặc bằng $2$. Để đạt được giá trị $2$, ta chia các số thành các nhóm gồm $4$ số liên tiếp và điền dấu để nhóm đầu tiên cho kết quả là $2$, các nhóm còn lại cho kết quả $0$:
+	\begin{align*}
+		&(1+2+3-4)+(5-6-7+8)+\cdots \\
+		&+(2017-2018-2019+2020)=2.
+	\end{align*}
+	{\bf\color{cackithi} OC$\pmb{14.}$} Hình chữ nhật $ABCD$ được chia nhỏ thành bốn hình chữ nhật như trong hình vẽ bên dưới. Diện tích hình chữ nhật $AEIG$ bằng $3$, diện tích hình chữ nhật $EBHI$ bằng $5$ và diện tích hình chữ nhật $IHCF$ bằng $12$. Hỏi diện tích của hình bình hành $AHJF$ bằng bao nhiêu? 
+	\begin{figure}[H]
+		\vspace*{-10pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.9\linewidth]{OC14}
+		\vspace*{-15pt}
+	\end{figure}
+	\textit{Lời giải.} Do $S_{AHJF}=2S_{AHF},$ ta chỉ cần tính diện tích tam giác $AHF.$
+	\vskip 0.1cm
+	Trước tiên ta có
+	\begin{align*}
+		S_{GIFD}\times S_{EBHI} & = (IG \times IF ) \times (IE\times IH) \\[-0.5ex]
+		&= (IG \times IE) \times (IF\times IH )\\[-0.5ex]
+		&= S_{AEIG}\times S_{IHCF}.
+	\end{align*} 
+	Từ đó tính được $S_{GIFD}=\dfrac{36}{5}.$ Như vậy, ta biết diện tích hình vuông
+	\begin{align*}
+		S_{ABCD}=3+5+12+\frac{36}{5}=27\frac{1}{5}.
+	\end{align*}
+	Do đó, ta tính được
+	\begin{align*}
+		S_{AHF}&=S_{ABCD}-S_{AFD}-S_{FHC}-S_{ABH}\\[-0.5ex]
+		&=S_{ABCD}-\frac{S_{AEFD}}{2}-\frac{S_{ABHG}}{2}-\frac{S_{IHCF}}{2}\\[-0.5ex]
+		&= 27\frac{1}{5} - \frac{51}{10} - 4- 6= 12\frac{1}{10}.
+	\end{align*}
+	Như vậy diện tích hình bình hành $AHJF$ là $ 24\dfrac{1}{5}.$
+	\vskip 0.1cm
+	{\bf\color{cackithi} OC$\pmb{15.}$} Chúng ta xét các hàng ngang gồm $2020$ đồng tiền xu, mỗi đồng có mệnh giá $1$, $2$ hoặc $3$. Biết rằng :
+	\vskip 0.1cm
+	$\bullet$ Giữa hai đồng xu mệnh giá $1$ luôn có ít nhất một đồng xu khác;
+	\vskip 0.1cm
+	$\bullet$ Giữa hai đồng xu mệnh giá $2$ luôn có ít nhất hai đồng xu khác;
+	\vskip 0.1cm
+	$\bullet$ Giữa hai đồng xu mệnh giá $3$ luôn có ít nhất ba đồng xu khác.
+	\vskip 0.1cm
+	Hỏi có bao nhiêu hàng khác nhau gồm $2020$ đồng xu thỏa mãn các điều kiện trên?
+	\vskip 0.1cm
+	\textit{Lời giải.} Xét một dãy hàng ngang $2020$ thỏa mãn các điều kiện của bài toán. Tạm thời bỏ đi các đồng xu mệnh giá $3$ (nếu có) ra khỏi hàng, ta nhận được các dãy các đồng xu liên tiếp, mỗi đồng có mệnh giá $1$ hoặc $2$ (chúng được ngăn cách nhau bởi các đồng xu mệnh giá $3$ ban đầu).
+	\vskip 0.1cm
+	Nhận xét rằng một dãy các đồng xu liên tiếp như vậy (mỗi đồng có mệnh giá $1$ hoặc $2$) không chứa hai đồng mệnh giá $2$, vì nếu không khi đó, theo điều kiện thứ hai, giữa hai đồng mệnh giá $2$ liên tiếp có hai đồng mệnh giá $1$ đứng cạnh nhau, mâu thuẫn với diều kiện đầu tiên. Như vậy, một dãy liên tiếp các đồng xu mệnh giá nhỏ hơn $3$ chỉ có $5$ loại sau: 
+	\begin{align*}
+		121; 12; 21; 1; 2.
+	\end{align*} 
+	Mà theo điều kiện thứ ba, giữa hai đồng mệnh giá $3$ có đúng $3$ đồng xu khác, do đó trong $5$ loại trên thì $4$ loại sau không thể xuất hiện, nghĩa là giữa hai đồng mệnh giá $3$ liên tiếp có đúng $3$ đồng xu như sau: $31213.$ Vì vậy dãy $2020$ đồng xu thỏa mãn đề bài sẽ có dạng:
+	\begin{align*}
+		\underbrace{\cdots}_{\text{không chứa $3$}} \underbrace{312131213\cdots 31213}_{k \ \text{dãy}\ 3121\ \text{và thêm số} \ 3 } \underbrace{\cdots}_{\text{không chứa $3$}}.
+	\end{align*}
+	Do mỗi khúc ở đầu và cuối chứa không quá $3$ đồng xu nên chỉ có duy nhất một khả năng là $k=504$ và tổng số đồng xu ở cả hai khúc đầu và cuối bằng $3$. Ta có $10$ lựa chọn cho khúc đầu và cuối như sau:
+	\begin{table}[H]
+%		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+				\setlength{\tabcolsep}{5pt}
+		\resizebox{\columnwidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+				\hline
+				\makecell{Khúc\\đầu} & $\emptyset$ & $1$ & $1$ & $2$ & $2$ & $12$ & $12$ & $21$ & $21$ & $121$ \\
+				\hline
+				\makecell{Khúc\\cuối}	& $121$ & $12$ & $21$ & $12$ & $21$ & $1$ & $2$ & $1$ & $2$ & $\emptyset$ \\
+				\hline
+		\end{tabular}}
+		\vspace*{-5pt}
+	\end{table}
+	Như vậy có $10$ hàng khác nhau gồm $2020$ đồng xu thỏa mãn đầu bài.
+	\vskip 0.1cm
+	Trong phần cuối của chuyên mục kỳ này, chúng tôi sẽ giới thiệu với bạn đọc ba bài toán trong kỳ thi Olympic Toán học Trẻ của Estonia năm học $2020-2021$. Các bài toán này phù hợp với trình độ học sinh Trung học cơ sở.
+	\vskip 0.1cm
+	{\bf\color{cackithi} OC$\pmb{22.}$} Tia phân giác tại đỉnh $A$ của tam giác $ABC$ cắt đường tròn ngoại tiếp tam giác $ABC$ tại điểm $F (F \neq A).$ Lấy điểm $D$ và $E$ lần lượt trên các cạnh $AB$ và $AC$ sao cho $DE$ song song với $BC$. Gọi $G$ và $H$ lần lượt là giao điểm của các tia $FD$ và $FE$ với đường tròn ngoại tiếp tam giác $ABC (G \neq F, H \neq F).$ Các đường tròn ngoại tiếp tam giác $AGD$ và $AHE$ cắt nhau tại điểm $P (P \neq A).$ Chứng minh rằng điểm $P$ nằm trên đường thẳng $AF$.
+	\begin{figure}[H]
+		\vspace*{-10pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.8\linewidth]{OC22}
+		\vspace*{-10pt}
+	\end{figure}
+	{\bf\color{cackithi} OC$\pmb{23.}$} Tìm tất cả các số nguyên $n\ge 3$ sao cho có thể viết một số
+	(không nhất thiết là số nguyên) vào mỗi đỉnh của một đa giác đều $n$ cạnh thỏa mãn cả hai điều kiện sau:
+	\vskip 0.1cm
+	$(1)$  Với bất kỳ ba đỉnh liên tiếp theo chiều kim đồng hồ của đa giác, 
+	chứa các số $x, y$ và $z$ tương ứng, thì ta có $x=|y-z|$;
+	\vskip 0.1cm
+	$(2)$ Tổng các số trong tất cả các đỉnh của đa giác bằng $1$.
+	\vskip 0.1cm
+	{\bf\color{cackithi} OC$\pmb{24.}$} Có một bộ $8$ quân cờ domino như trong hình vẽ bên dưới, mỗi quân gồm hai ô vuông đơn vị:
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\includegraphics[width=0.9\linewidth]{OC24}
+		\vspace*{-10pt}
+	\end{figure}
+	Liệu có thể lát kín hoàn toàn một bảng vuông có kích thước $4 \times 4$ bằng những quân domino này sao cho tổng số chấm trên mỗi hàng, mỗi cột đều bằng nhau?
+\end{multicols}
 
