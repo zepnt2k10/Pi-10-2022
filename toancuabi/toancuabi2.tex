@@ -341,13 +341,24 @@
 
 \begin{multicols}{2}
 	\PIbox{\textbf{\color{toancuabi}Problem} $\pmb{1.}$ How many ways are there to color the regions $A$, $B$, $C$, $D$ in the figure with three different colors, where each region is colored by one color?}	 
-	\begin{figure}[H]
-		\centering
-		\vspace*{-5pt}
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[scale=1]{m1}
-		\vspace*{-5pt}
-	\end{figure}
+	\begin{center}
+		\begin{tikzpicture}[toancuabi, xscale=1.6, yscale=1.6]
+			\draw (0,0) grid (2,2);
+			\node at (0.5,0.5) {$A$};
+			\node at (0.5,1.5) {$B$};
+			\node at (1.5,1.5) {$C$};
+			\node at (1.5,0.5) {$D$};
+			\draw[fill=white] (0,0) circle (1.5pt);
+			\draw[fill=white] (1,0) circle (1.5pt);
+			\draw[fill=white] (0,1) circle (1.5pt);
+			\draw[fill=white] (1,1) circle (1.5pt);
+			\draw[fill=white] (2,0) circle (1.5pt);
+			\draw[fill=white] (2,1) circle (1.5pt);
+			\draw[fill=white] (2,2) circle (1.5pt);
+			\draw[fill=white] (1,2) circle (1.5pt);
+			\draw[fill=white] (0,2) circle (1.5pt);
+		\end{tikzpicture}
+	\end{center}
 	\PIbox{\textbf{\color{toancuabi}Rule of Multiplication:} Suppose that we have to do two independent jobs $A$ and $B$, and that there are $m$ ways to do job $A$ and $n$ ways to do job $B$. We cannot do both jobs at the same time, then there are $(m \times n)$ ways to do \textbf{\color{toancuabi}both} jobs.}
 	\vskip 0.1cm
 	\textit{Solution}: There are $4$ regions to be colored, and there are $3$ ways to color each region. Therefore, the number of colorings is 
@@ -355,13 +366,29 @@
 		\text{Rule of multiplication: }	3 \times 3\times 3\times 3=81.
 	\end{align*}
 	\PIbox{\textbf{\color{toancuabi}Problem} $\pmb{2.}$ How many ways are there to color the regions $A$, $B$, $C$, $D$, $E$ in the figure using three different colors such that two adjacent regions have different colors?	} 
-	\begin{figure}[H]
-		\centering
-		\vspace*{-5pt}
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[scale=1]{m2}
-		\vspace*{-10pt}
-	\end{figure}
+	\begin{center}
+		\begin{tikzpicture}[toancuabi, xscale=1.6, yscale=1.6]
+			\draw (0,0) grid (3,2);
+			\node at (0.5,0.5) {$A$};
+			\node at (0.5,1.5) {$B$};
+			\node at (1.5,1.5) {$C$};
+			\node at (2.5,1.5) {$D$};
+			\node at (2.5,0.5) {$E$};
+			\draw[fill=white] (0,0) circle (1.5pt);
+			\draw[fill=white] (1,0) circle (1.5pt);
+			\draw[fill=white] (0,1) circle (1.5pt);
+			\draw[fill=white] (1,1) circle (1.5pt);
+			\draw[fill=white] (2,0) circle (1.5pt);
+			\draw[fill=white] (2,1) circle (1.5pt);
+			\draw[fill=white] (2,2) circle (1.5pt);
+			\draw[fill=white] (1,2) circle (1.5pt);
+			\draw[fill=white] (0,2) circle (1.5pt);
+			\draw[fill=white] (3,2) circle (1.5pt);
+			\draw[fill=white] (3,1) circle (1.5pt);
+			\draw[fill=white] (3,0) circle (1.5pt);
+			\draw[white] (1,0) -- (2,0);
+		\end{tikzpicture}
+	\end{center}
 	\textit{Solution}: We color in the order $A \to B \to C \to D \to E$. There are $3$ ways to color region $A$. After that, there are $2$ ways to color $B$ with a different color. Then there are $2$ ways to color $C$ with a color different from $B$, and so on ...
 	\vskip 0.1cm   
 	According to the rule of multiplication, the number of colorings is given by
@@ -371,11 +398,12 @@
 	\PIbox{\textbf{\color{toancuabi}Problem} $\pmb{3.}$ How many ways are there to put $8$ rooks on a chessboard so that they do not attack each other? 
 		\vskip 0.1cm
 		(\textit{Note that two rooks on the same row or column attack each other.})}
+	\vskip 0.1cm
 	\begin{figure}[H]
 		\centering
-		%		\vspace*{-5pt}
+%	\vspace*{-5pt}
 		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[width=1\linewidth]{co}
+		\includegraphics[width=1\linewidth]{xe}
 		\vspace*{-10pt}
 	\end{figure}
 	\textit{Solution}:
@@ -394,21 +422,21 @@
 	\end{align*}
 	ways to put $8$ rooks on a chessboard such that they do not attack each other.
 	\vskip 0.1cm
-	\PIbox{\textbf{\color{toancuabi}Problem} $\pmb{4.}$ There are $5$ {\color{green}green balls} numbered from $1$ to $5$, $6$ {\color{red}red balls} numbered from $1$ to $6$, and $7$ {\color{yellow}yellow balls} numbered from $1$ to $7$. How many ways are there to choose $3$ balls such that they have different colors and numbers?}
+	\PIbox{\textbf{\color{toancuabi}Problem} $\pmb{4.}$ There are $5$ {\color{blue}blue balls} numbered from $1$ to $5$, $6$ {\color{red}red balls} numbered from $1$ to $6$, and $7$ {\color{amber}yellow balls} numbered from $1$ to $7$. How many ways are there to choose $3$ balls such that they have different colors and numbers?}
 	\begin{figure}[H]
 		\centering
 		\vspace*{-5pt}
 		\captionsetup{labelformat= empty, justification=centering}
 		\includegraphics[width=1\linewidth]{bong}
-		\vspace*{-10pt}
+		\vspace*{-5pt}
 	\end{figure}
 	\textit{Solution:}
 	\vskip 0.1cm 
-	$\circ$ First, we choose a {\color{green}green ball}. There are $5$ available choices. 
+	$\circ$ First, we choose a {\color{blue}blue ball}. There are $5$ available choices. 
 	\vskip 0.1cm
-	$\circ$ Next, we choose a {\color{red}red ball}. The number on this {\color{red}red ball} is different from that of the {\color{green}green ball}, so there are $6-1=5$ available choices. 
+	$\circ$ Next, we choose a {\color{red}red ball}. The number on this {\color{red}red ball} is different from that of the {\color{blue}blue ball}, so there are $6-1=5$ available choices. 
 	\vskip 0.1cm
-	$\circ$ Finally, we choose a {\color{yellow}yellow ball}, and there are $7-2=5$ available choices. 
+	$\circ$ Finally, we choose a {\color{amber}yellow ball}, and there are $7-2=5$ available choices. 
 	\vskip 0.1cm
 	According to the rule of multiplication, the number of ways to choose $3$ balls of different colors and different numbers is: 
 	\begin{align*}
@@ -432,13 +460,24 @@
 	numbers that satisfy the requirement of the problem.
 	\vskip 0.1cm
 	\PIbox{\textbf{\color{toancuabi}Exercise} $\pmb{1.}$ How many ways are there to color the regions $A$, $B$, $C$, $D$ in the figure with one color for each region, given that there are three different colors and no two adjacent regions have the same color?}
-	\begin{figure}[H]
-		\centering
-		\vspace*{-5pt}
-		\captionsetup{labelformat= empty, justification=centering}
-		\includegraphics[scale=1]{m3}
-		\vspace*{-5pt}
-	\end{figure}
+	\begin{center}
+		\begin{tikzpicture}[toancuabi, xscale=1.6, yscale=1.6]
+			\draw (0,0) grid (2,2);
+			\node at (0.5,0.5) {$A$};
+			\node at (0.5,1.5) {$B$};
+			\node at (1.5,1.5) {$C$};
+			\node at (1.5,0.5) {$D$};
+			\draw[fill=white] (0,0) circle (1.5pt);
+			\draw[fill=white] (1,0) circle (1.5pt);
+			\draw[fill=white] (0,1) circle (1.5pt);
+			\draw[fill=white] (1,1) circle (1.5pt);
+			\draw[fill=white] (2,0) circle (1.5pt);
+			\draw[fill=white] (2,1) circle (1.5pt);
+			\draw[fill=white] (2,2) circle (1.5pt);
+			\draw[fill=white] (1,2) circle (1.5pt);
+			\draw[fill=white] (0,2) circle (1.5pt);
+		\end{tikzpicture}
+	\end{center}
 	\vskip 0.1cm
 	\PIbox{\textbf{\color{toancuabi}Exercise} $\pmb{2.}$ How many ways are there to color the sides of a pentagon with three different colors such that no two adjacent sides have the same color?}
 	\vskip 0.2cm
