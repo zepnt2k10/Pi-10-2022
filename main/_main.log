@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  28 SEP 2022 10:33
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  29 SEP 2022 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3048,7 +3048,7 @@ Requested font "yhcmex10" at 8.0pt
 Requested font "rsfs10" at 10.95pt
 Requested font "rsfs10" at 8.0pt
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 121.
+(Font)              scaled to size 10.95pt on input line 123.
 Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
 m;mapping=tex-text;" at 10.95pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
@@ -3073,12 +3073,6 @@ File: ../toanhocdoisong/pic2//2.jpg Graphic file (type bmp)
 <../toanhocdoisong/pic2//2.jpg>
 File: ../toanhocdoisong/pic2//3.jpg Graphic file (type bmp)
 <../toanhocdoisong/pic2//3.jpg>
-
-Underfull \hbox (badness 7397) in paragraph at lines 196--197
-[]\TU/EBGaramond(0)/m/n/12 Mã Hamming $[]\OT1/ztmcm/m/n/12 7$[] \TU/EBGaramond(
-0)/m/n/12 bit trên có $[]\OT1/ztmcm/m/n/12 2[] = 16$[]
- []
-
 File: toanhocds1.pdf Graphic file (type pdf)
 <use toanhocds1.pdf>
 File: ftoanhocds1.pdf Graphic file (type pdf)
@@ -3091,7 +3085,7 @@ File: toanhocds1.pdf Graphic file (type pdf)
 <use toanhocds1.pdf>
 File: ftoanhocds1.pdf Graphic file (type pdf)
 <use ftoanhocds1.pdf>
-[6]
+ [6]
 File: ../toanhocdoisong/pic2//QR.png Graphic file (type bmp)
 <../toanhocdoisong/pic2//QR.png>
 File: ../toanhocdoisong/pic2//4.png Graphic file (type bmp)
@@ -3165,7 +3159,7 @@ File: toanhocds2.pdf Graphic file (type pdf)
 File: ftoanhocds2.pdf Graphic file (type pdf)
 <use ftoanhocds2.pdf>
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 []\OMS/ztmcm/m/n/12 f\OT1/ztmcm/m/n/12 000\OML/ztmcm/m/it/12 ; \OT1/ztmcm/m/n/1
 2 001\OML/ztmcm/m/it/12 ; \OT1/ztmcm/m/n/12 010\OML/ztmcm/m/it/12 ; \OT1/ztmcm/
 m/n/12 100\OML/ztmcm/m/it/12 ; \OT1/ztmcm/m/n/12 011\OML/ztmcm/m/it/12 ; \OT1/z
@@ -3174,12 +3168,12 @@ OT1/ztmcm/m/n/12 111\OMS/ztmcm/m/n/12 g$[]\TU/EBGaramond(0)/m/n/12 .
  []
 
 
-Overfull \hbox (2.73624pt too wide) detected at line 334
+Overfull \hbox (2.73624pt too wide) detected at line 336
 []
  []
 
 
-Overfull \hbox (0.16122pt too wide) detected at line 343
+Overfull \hbox (0.16122pt too wide) detected at line 345
 []
  []
 
@@ -3196,12 +3190,12 @@ File: toanhocds1.pdf Graphic file (type pdf)
 File: ftoanhocds1.pdf Graphic file (type pdf)
 <use ftoanhocds1.pdf>
 [10]
-Overfull \hbox (7.31357pt too wide) detected at line 362
+Overfull \hbox (7.31357pt too wide) detected at line 364
 []
  []
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 393.
+(Font)              scaled to size 12.0pt on input line 395.
 Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
 m;mapping=tex-text;" at 12.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
@@ -3556,7 +3550,10 @@ File: duongvao1.pdf Graphic file (type pdf)
 File: fduongvao1.pdf Graphic file (type pdf)
 <use fduongvao1.pdf>
 
-[20]) [21] (../toancuabi/toancuabi2.tex
+[20])
+File: DTS.pdf Graphic file (type pdf)
+<use DTS.pdf>
+ [21] (../toancuabi/toancuabi2.tex
 File: ../toancuabi/pic//xuanphong.png Graphic file (type bmp)
 <../toancuabi/pic//xuanphong.png>
 File: ../toancuabi/pic//../bannertoancuabi.jpg Graphic file (type bmp)
@@ -3673,35 +3670,40 @@ File: toancuabi2.pdf Graphic file (type pdf)
 File: ftoancuabi2.pdf Graphic file (type pdf)
 <use ftoancuabi2.pdf>
  [27]
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 343--344
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 353--354
 [][] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 362--363
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 372--373
 [] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 367--369
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 377--379
 [] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 397--401
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+[]\TU/EBGaramond(0)/m/n/12 According to the rule of product, the
+ []
+
+
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 407--411
 [] 
  []
 
 File: ../toancuabi/pic//xe.jpg Graphic file (type bmp)
 <../toancuabi/pic//xe.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 [][][]\TU/EBGaramond(0)/b/n/12 Problem[] $[][]$[] \TU/EBGaramond(0)/m/n/12 Ther
 e are $[]\OT1/ztmcm/m/n/12 5$[] []\TU/EBGaramond(0)/m/n/12 blue balls[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 \TU/EBGaramond(0)/m/n/12 numbered from $[]\OT1/ztmcm/m/n/12 1$[] \TU/EBGaramond
 (0)/m/n/12 to $[]\OT1/ztmcm/m/n/12 5$[]\TU/EBGaramond(0)/m/n/12 , $[]\OT1/ztmcm
 /m/n/12 6$[] []\TU/EBGaramond(0)/m/n/12 red balls[]
@@ -3710,7 +3712,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--425
 File: ../toancuabi/pic//bong.png Graphic file (type bmp)
 <../toancuabi/pic//bong.png>
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 425--432
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 435--442
 [][] 
  []
 
@@ -3729,28 +3731,33 @@ File: ftoancuabi1.pdf Graphic file (type pdf)
 <use ftoancuabi1.pdf>
 
 [28]
-Underfull \hbox (badness 7796) in paragraph at lines 445--445
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+[]\TU/EBGaramond(0)/m/n/12 According to the rule of product, the
+ []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 455--455
 [][][]\TU/EBGaramond(0)/b/n/12 Problem[] $[][]$[] \TU/EBGaramond(0)/m/n/12 How 
 many even $[]\OT1/ztmcm/m/n/12 4$[]\TU/EBGaramond(0)/m/n/12 –digit
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 444--446
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 454--456
 [] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 462--463
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 472--473
 [][] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 482--483
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 492--493
 [] 
  []
 
 
-Overfull \hbox (1.6797pt too wide) in paragraph at lines 500--501
+Overfull \hbox (1.6797pt too wide) in paragraph at lines 510--511
 [][] 
  []
 
@@ -3996,7 +4003,7 @@ File: thachthuc1.pdf Graphic file (type pdf)
 <use thachthuc1.pdf>
 File: fthachthuc1.pdf Graphic file (type pdf)
 <use fthachthuc1.pdf>
-[40]) (../hoccungpi/hoccungpi2.tex
+[40]) (../hoccungpi/hoccungpi3.tex
 Overfull \vbox (11.62634pt too high) has occurred while \output is active []
 
 File: ../hoccungpi/pic//../bannerhoccungpi.jpg Graphic file (type bmp)
@@ -4046,12 +4053,12 @@ File: hoccungpi2.pdf Graphic file (type pdf)
 File: fhoccungpi2.pdf Graphic file (type pdf)
 <use fhoccungpi2.pdf>
  [43]
-Overfull \hbox (4.10762pt too wide) detected at line 287
+Overfull \hbox (4.10762pt too wide) detected at line 288
 []
  []
 
 
-Overfull \hbox (4.99594pt too wide) detected at line 300
+Overfull \hbox (4.99594pt too wide) detected at line 301
 []
  []
 
@@ -4402,6 +4409,9 @@ Underfull \hbox (badness 5504) in paragraph at lines 112--113
 \TU/EBGaramond(0)/m/n/12 nhưng một lần nữa Khan muốn tránh
  []
 
+
+Overfull \vbox (0.45872pt too high) has occurred while \output is active []
+
 File: gocco2.pdf Graphic file (type pdf)
 <use gocco2.pdf>
 File: fgocco2.pdf Graphic file (type pdf)
@@ -4414,6 +4424,7 @@ File: gocco2.pdf Graphic file (type pdf)
 <use gocco2.pdf>
 File: fgocco2.pdf Graphic file (type pdf)
 <use fgocco2.pdf>
+
 [63]) (_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4425,12 +4436,12 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 70839 strings out of 410939
- 1609957 string characters out of 2823530
- 2673702 words of memory out of 3000000
- 90268 multiletter control sequences out of 15000+600000
+ 70847 strings out of 410939
+ 1610064 string characters out of 2823530
+ 2674702 words of memory out of 3000000
+ 90275 multiletter control sequences out of 15000+600000
  508737 words of font info for 151 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,17n,120p,1660b,1182s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 104i,17n,120p,1569b,1182s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on _main.pdf (62 pages).
